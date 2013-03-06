@@ -39,11 +39,10 @@
         }
         $("table").each(function () {
             var it = $('this').attr('data-id');
-            
             $(this).find("tr").each(function () {
                 var $tr = $(this);
                 if ($tr.find("th").length) return;
-                var data = rawData[it][$tr.find("td").first().text()];
+                var data = JSON.parse($tr.data("raw"));
                 var requirements = formula(data, getMultipliers());
                 $tr.find("td:nth-child(3)").text(requirements);
                 var percent = calculatePercentage(data.tests, requirements);
@@ -77,8 +76,6 @@
         };
     }
     
-    window.rawData = {};
-    
     window.cover = function (items, titles, urls, $target) {
         function process () {
             if (!items.length) {
@@ -103,8 +100,7 @@
                     ,   $tr = $("<tr></tr>")
                     ;
                     
-                    window.rawData[it] = window.rawData[it] || {};
-                    window.rawData[it][row.original_id] = row;
+                    $tr.data("raw", JSON.stringify(row))
                     var $first = $("<td></td>").addClass("level" + row.level);
                     $("<a></a>").attr("href", base + '#' + row.original_id).text(row.original_id).appendTo($first);
                     $first.appendTo($tr);
