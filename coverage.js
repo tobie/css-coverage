@@ -28,45 +28,57 @@
         ,   idl = 1 * $("input[name=idl]").val()
         ;
 
-        function ok ($el) { $el.css("background", "#aaff71"); }
-        function nok ($el) { $el.css("background", "rgba(255, 0, 0, 0.5)"); }
-
-        function hasEnough (tests, num, el, threshold) {
-            if (num === 0) ok(el);
-            else {
-                var ratio = tests / num;
-                (ratio >= threshold) ? ok(el) : nok(el);
-            }
+        function setColor(element, percent) {
+            if (percent == null) color = '#fff'
+            else if (percent > 79) color = '#0f0'
+            else if (percent > 59) color = '#cf6'
+            else if (percent > 39) color = '#ff6'
+            else if (percent > 19) color = '#fc6'
+            else color = '#f00'
+            element.css("background", color);
         }
 
         $("table").each(function () {
             $(this).find("tr").each(function () {
                 var $tr = $(this);
                 if ($tr.find("th").length) return;
-                var counts = [];
-                $tr.find("td").each(function () {
-                    counts.push({ el: $(this), num: 1 * $(this).text() });
-                });
-                var tests = counts[5].num;
-                // words per test
-                if (tests === 0) {
-                    if (counts[1].num === 0) ok(counts[1].el);
-                    else nok(counts[1].el);
-                }
-                else {
-                    var ratio = counts[1].num / tests;
-                    (ratio <= words) ? ok(counts[1].el) : nok(counts[1].el);
-                }
-                // tests per rfc2119
-                hasEnough(tests, counts[2].num, counts[2].el, rfc2119);
-                hasEnough(tests, counts[3].num, counts[3].el, algos);
-                hasEnough(tests, counts[4].num, counts[4].el, idl);
+                var data = rawData[$tr.find("td").first().text()];
+                var requirements = formula(data, getMultipliers());
+                $tr.find("td:nth-child(3)").text(requirements);
+                var percent = calculatePercentage(data.tests, requirements);
+                $tr.find("td:nth-child(4)").text(percent === null ? 'n/a' : percent);
+                setColor($tr.find("td:nth-child(4)"), percent)
             });
         });
 
     });
     
-    window.cover = function (items, titles, $target) {
+    function calculatePercentage(existing, desired) {
+        if (!desired) {
+            return null;
+        }
+        return Math.min(Math.round((existing / desired) * 100), 100);
+    }
+    
+    function formula(data, multipliers) {
+        var output = 0;
+        output += data.normativeStatements * multipliers.normativeStatements;
+        output += data.algorithmicSteps * multipliers.algorithmicSteps;
+        output += data.idlComplexity * multipliers.idlComplexity;
+        return output;
+    }
+    
+    function getMultipliers() {
+        return {
+            normativeStatements: 1 * $("input[name=rfc2119]").val(),
+            algorithmicSteps: 1 * $("input[name=algos]").val(),
+            idlComplexity: 1 * $("input[name=idl]").val()
+        };
+    }
+    
+    window.rawData = {};
+    
+    window.cover = function (items, titles, urls, $target) {
         function process () {
             if (!items.length) {
                 $("#update").click();
@@ -74,17 +86,12 @@
             }
             var it = items.shift()
             ,   tit = titles.shift()
+            ,   base = urls.shift()
             ,   $div = $("<div></div>")
             ,   $table = $("<table></table>")
-            ,   totals = {
-                    algorithmicSteps:       0
-                ,   idlComplexity:          0
-                ,   normativeStatements:    0
-                ,   wordCount:              0
-                ,   tests:                  0
-                }
             ;
-            $("<tr><th>Section</th><th>Words</th><th>2119</th><th>Algos</th><th>IDL</th><th>Tests</th></tr>")
+
+            $("<tr><th>Section</th><th>Existing Tests</th><th>Desired Tests</th><th>Coverage (%)</th></tr>")
                 .appendTo($table);
 
             $div.append($("<h2></h2>").text(tit));
@@ -93,29 +100,20 @@
                     var row = data[i]
                     ,   $tr = $("<tr></tr>")
                     ;
-                    $("<td></td>").addClass("level" + row.level).text(row.original_id).appendTo($tr);
-                    $("<td></td>").text(row.wordCount).appendTo($tr);
-                    $("<td></td>").text(row.normativeStatements).appendTo($tr);
-                    $("<td></td>").text(row.algorithmicSteps).appendTo($tr);
-                    $("<td></td>").text(row.idlComplexity).appendTo($tr);
+                    
+                    window.rawData[row.original_id] = row;
+                    var $first = $("<td></td>").addClass("level" + row.level);
+                    $("<a></a>").attr("href", base + '#' + row.original_id).text(row.original_id).appendTo($first);
+                    $first.appendTo($tr);
                     $("<td></td>").text(row.tests).appendTo($tr);
+                    var requirements = formula(row, getMultipliers());
+                    $("<td></td>").text(requirements).appendTo($tr);
+                    $("<td></td>").text(calculatePercentage(row.tests, requirements)).appendTo($tr);
                     $table.append($tr);
-                    if (row.level === 1) {
-                        totals.algorithmicSteps += row.algorithmicSteps;
-                        totals.idlComplexity += row.idlComplexity;
-                        totals.normativeStatements += row.normativeStatements;
-                        totals.wordCount += row.wordCount;
-                        totals.tests += row.tests;
-                    }
+
                 }
                 $div.append($table);
-                var $ul = $("<ul></ul>");
-                $("<li></li>").text("Words: " + totals.wordCount).appendTo($ul);
-                $("<li></li>").text("2119: " + totals.normativeStatements).appendTo($ul);
-                $("<li></li>").text("Algos: " + totals.algorithmicSteps).appendTo($ul);
-                $("<li></li>").text("IDL: " + totals.idlComplexity).appendTo($ul);
-                $("<li></li>").text("Tests: " + totals.tests).appendTo($ul);
-                $div.append($ul);
+
                 $target.append($div);
                 process();
             });
