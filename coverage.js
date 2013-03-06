@@ -53,6 +53,10 @@
 
     });
     
+    $("#reqs-only").click(function() {
+        $("table").toggleClass("hide-reqs", this.checked);
+    });
+    
     function calculatePercentage(existing, desired) {
         if (!desired) {
             return null;
@@ -109,6 +113,7 @@
                     $("<td></td>").text(requirements).appendTo($tr);
                     var percent = calculatePercentage(row.tests, requirements);
                     $("<td></td>").text(percent === null ? 'n/a' : percent).appendTo($tr);
+                    if (!requirements) $tr.addClass('no-req')
                     $table.append($tr);
 
                 }
