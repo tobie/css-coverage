@@ -37,12 +37,13 @@
             else color = '#f00'
             element.css("background", color);
         }
-
         $("table").each(function () {
+            var it = $('this').attr('data-id');
+            
             $(this).find("tr").each(function () {
                 var $tr = $(this);
                 if ($tr.find("th").length) return;
-                var data = rawData[$tr.find("td").first().text()];
+                var data = rawData[it][$tr.find("td").first().text()];
                 var requirements = formula(data, getMultipliers());
                 $tr.find("td:nth-child(3)").text(requirements);
                 var percent = calculatePercentage(data.tests, requirements);
@@ -91,6 +92,7 @@
             ,   $table = $("<table></table>")
             ;
 
+            $table.attr('data-id', it);
             $("<tr><th>Section</th><th>Existing Tests</th><th>Desired Tests</th><th>Coverage (%)</th></tr>")
                 .appendTo($table);
 
@@ -101,14 +103,16 @@
                     ,   $tr = $("<tr></tr>")
                     ;
                     
-                    window.rawData[row.original_id] = row;
+                    window.rawData[it] = window.rawData[it] || {};
+                    window.rawData[it][row.original_id] = row;
                     var $first = $("<td></td>").addClass("level" + row.level);
                     $("<a></a>").attr("href", base + '#' + row.original_id).text(row.original_id).appendTo($first);
                     $first.appendTo($tr);
                     $("<td></td>").text(row.tests).appendTo($tr);
                     var requirements = formula(row, getMultipliers());
                     $("<td></td>").text(requirements).appendTo($tr);
-                    $("<td></td>").text(calculatePercentage(row.tests, requirements)).appendTo($tr);
+                    var percent = calculatePercentage(row.tests, requirements);
+                    $("<td></td>").text(percent === null ? 'n/a' : percent).appendTo($tr);
                     $table.append($tr);
 
                 }
