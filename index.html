@@ -31,7 +31,6 @@
         will come up with a more or less definitive set of values to roughly aim for.
       </p>
       <ul>
-        <li>Words per test: <input type='number' name='words' size='4' value='10'></li>
         <li>Tests per RFC2119: <input type='number' name='rfc2119' size='4' value='5'></li>
         <li>Tests per algorithm step: <input type='number' name='algos' size='4' value='1'></li>
         <li>Tests per IDL item: <input type='number' name='idl' size='4' value='5'></li>
@@ -39,16 +38,19 @@
       <button id='update'>Update</button>
     </div>
     <div id='output'></div>
-    
-    <!-- 
-      - add a filter that can colour the cells based on user-defined thresholds
-      - hide levels
-    -->
+    <ul id=color-coding>
+      <li style="background-color:#0F0">80 - 100%</li>
+      <li style="background-color:#CF6">60 - 79%</li>
+      <li style="background-color:#FF6">40 - 69%</li>
+      <li style="background-color:#FC6">20 - 39%</li>
+      <li style="background-color:#F00">0 - 19%</li>
+    </ul>
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
     <script src='coverage.js'></script>
     <script>
       cover(["css3transforms", "css3backgrounds"]
           , ["CSS Transforms", "CSS Backgrounds & Borders"]
+          , ["http://www.w3.org/TR/2012/WD-css3-transforms-20120911/", "http://www.w3.org/TR/2012/CR-css3-background-20120724/"]
           , $("#output"));
     </script>
   </body>

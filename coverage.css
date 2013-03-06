@@ -24,3 +24,17 @@ td.level2 {
 td.level3 {
     padding-left:   4em;
 }
+
+#color-coding li {
+	width: 80px;
+	line-height: 1.5;
+	margin-bottom: 10px;
+	padding: 5px;
+	text-align: right;
+	list-style: none;
+	float: right;
+}
+
+#color-coding {
+	float: left;
+}
