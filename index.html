@@ -18,7 +18,7 @@
         at section levels 1 or 2 instead, you can choose those options below.
       </p>
       <ul>
-        <li>Level 1 <input type='radio' name='level' value='1'></li>
+        <li>Level 1 <input type='radio' name='level' value='1' checked></li>
         <li>Level 2 <input type='radio' name='level' value='2'></li>
         <li>Level 3 <input type='radio' name='level' value='3'></li>
       </ul>
@@ -34,6 +34,12 @@
         <li>Tests per RFC2119: <input type='number' name='rfc2119' size='4' value='5'></li>
         <li>Tests per algorithm step: <input type='number' name='algos' size='4' value='1'></li>
         <li>Tests per IDL item: <input type='number' name='idl' size='4' value='5'></li>
+      </ul>
+      
+      <h4>Cost:</h4>
+      <ul>
+        <li>Test writing cost per test: $<input type='test-cost' name='test-cost' size='4' value='100'></li>
+        <li>Test review cost per test: $<input type='review-cost' name='review-cost' size='4' value='60'></li>
       </ul>
       <button id='update'>Update</button>
     </div>
