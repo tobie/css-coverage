@@ -33,7 +33,7 @@
       <ul>
         <li>Tests per RFC2119: <input type='number' name='rfc2119' size='4' value='4'></li>
         <li>Tests per algorithm step: <input type='number' name='algos' size='4' value='2'></li>
-        <li>Tests per IDL item: <input type='number' name='idl' size='4' value='5'></li>
+        <li>Tests per IDL item: <input type='number' name='idl' size='4' value='5'> <small><label><input type='checkbox' name='assume-idl' id="assume-idl" checked> Assume idlharness gives 100% coverage of IDL items.</label></small></li>
       </ul>
       
       <h4>Cost:</h4>
@@ -46,9 +46,7 @@
     <p>
       <label><input type='checkbox' name='reqs-only' id="reqs-only"> Only show sections with requirements.</label>
     </p>
-    <p>
-      <label><input type='checkbox' name='assume-idl' id="assume-idl"> Assume idlharness gives 100% coverage of IDL items.</label>
-    </p>
+
     <div id='output'></div>
     <ul id=color-coding>
       <li style="background-color:#0F0">80 - 100%</li>

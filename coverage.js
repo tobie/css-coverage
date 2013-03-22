@@ -53,6 +53,7 @@
                 $tr.find("td:nth-child(3)").text(requirements);
                 var existing = data.tests;
                 if (multipliers.assumeIdl) existing += multipliers.idlComplexity * data.idlComplexity;
+                $tr.find("td:nth-child(2)").text(existing);
                 missing += Math.max(0, requirements - existing);
                 var percent = calculatePercentage(existing, requirements);
                 $tr.find("td:nth-child(4)").text(percent === null ? 'n/a' : percent);
