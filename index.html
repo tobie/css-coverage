@@ -40,7 +40,9 @@
     <p>
       <label><input type='checkbox' name='reqs-only' id="reqs-only"> Only show sections with requirements.</label>
     </p>
-    
+    <p>
+      <label><input type='checkbox' name='assume-idl' id="assume-idl"> Assume idlharness gives 100% coverage of IDL items.</label>
+    </p>
     <div id='output'></div>
     <ul id=color-coding>
       <li style="background-color:#0F0">80 - 100%</li>
@@ -52,9 +54,9 @@
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
     <script src='coverage.js'></script>
     <script>
-      cover(["css3transforms", "css3backgrounds"]
-          , ["CSS Transforms", "CSS Backgrounds & Borders"]
-          , ["http://www.w3.org/TR/2012/WD-css3-transforms-20120911/", "http://www.w3.org/TR/2012/CR-css3-background-20120724/"]
+      cover(["css3transforms", "css3backgrounds", "html", "canvas2d"]
+          , ["CSS Transforms", "CSS Backgrounds & Borders", "HTML5", "Canvas 2D"]
+          , ["http://www.w3.org/TR/2012/WD-css3-transforms-20120911/", "http://www.w3.org/TR/2012/CR-css3-background-20120724/", "http://www.w3.org/TR/html5/single-page.html", "http://www.w3.org/TR/2012/CR-2dcontext-20121217/"]
           , $("#output"));
     </script>
   </body>

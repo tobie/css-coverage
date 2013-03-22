@@ -1,5 +1,6 @@
 
 (function ($) {
+    var FACTOR = 0.2;
     
     function filterByLevel (lvl) {
         var mask;
@@ -40,14 +41,25 @@
         $("table").each(function () {
             var it = $('this').attr('data-id');
             $(this).find("tr").each(function () {
+                var totalDesired = 0,
+                    totalExisting = 0;
                 var $tr = $(this);
                 if ($tr.find("th").length) return;
                 var data = JSON.parse($tr.data("raw"));
-                var requirements = formula(data, getMultipliers());
+                var multipliers = getMultipliers();
+                var requirements = formula(data, multipliers);
                 $tr.find("td:nth-child(3)").text(requirements);
-                var percent = calculatePercentage(data.tests, requirements);
+                var existing = data.tests;
+                if (multipliers.assumeIdl) existing += multipliers.idlComplexity * data.idlComplexity;
+                var percent = calculatePercentage(existing, requirements);
                 $tr.find("td:nth-child(4)").text(percent === null ? 'n/a' : percent);
-                setColor($tr.find("td:nth-child(4)"), percent)
+                setColor($tr.find("td:nth-child(4)"), percent);
+                var $lastTD = $tr.find("td:nth-child(5)");
+                $lastTD.css("width", (requirements * FACTOR) + "px");
+                var $div = $lastTD.find("> div");
+                var $div2 = $div.find("div");
+                $div.css("width", ((requirements * FACTOR) + 2) + "px");
+                $div2.css("width", (Math.min(existing, requirements) * FACTOR) + "px");
             });
         });
 
@@ -55,6 +67,10 @@
     
     $("#reqs-only").click(function() {
         $("table").toggleClass("hide-reqs", this.checked);
+    });
+    
+    $("#assume-idl").click(function() {
+        $("#update").click();
     });
     
     function calculatePercentage(existing, desired) {
@@ -76,7 +92,8 @@
         return {
             normativeStatements: 1 * $("input[name=rfc2119]").val(),
             algorithmicSteps: 1 * $("input[name=algos]").val(),
-            idlComplexity: 1 * $("input[name=idl]").val()
+            idlComplexity: 1 * $("input[name=idl]").val(),
+            assumeIdl: $("input[name=assume-idl]").is(':checked')
         };
     }
     
@@ -98,6 +115,9 @@
                 .appendTo($table);
 
             $div.append($("<h2></h2>").text(tit));
+            $div.append($table);
+
+            $target.append($div);
             $.getJSON("spec-data-" + it + ".json", function (data) {
                 for (var i = 0, n = data.length; i < n; i++) {
                     var row = data[i]
@@ -109,17 +129,26 @@
                     $("<a></a>").attr("href", base + '#' + row.original_id).text(row.original_id).appendTo($first);
                     $first.appendTo($tr);
                     $("<td></td>").text(row.tests).appendTo($tr);
-                    var requirements = formula(row, getMultipliers());
+                    var multipliers = getMultipliers();
+                    var requirements = formula(row, multipliers);
                     $("<td></td>").text(requirements).appendTo($tr);
                     var percent = calculatePercentage(row.tests, requirements);
                     $("<td></td>").text(percent === null ? 'n/a' : percent).appendTo($tr);
+                    var $lastTD = $("<td></td>")                    
+                    var $div = $("<div></div>");
+                    var $div2 = $("<div></div>");
+                    $lastTD.append($div);
+                    $div.append($div2);
+                    $div2.css("height", "10px");
+                    $div2.css("margin", "1px");
+                    $div2.css("background-color", "#666");
+                    $div.css("border", "1px solid black");
+                    $lastTD.appendTo($tr);
                     if (!requirements) $tr.addClass('no-req')
                     $table.append($tr);
 
                 }
-                $div.append($table);
-
-                $target.append($div);
+                
                 process();
             });
         }
