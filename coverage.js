@@ -64,7 +64,7 @@
                 $div.css("width", ((requirements * FACTOR) + 2) + "px");
                 $div2.css("width", (Math.min(existing, requirements) * FACTOR) + "px");
             });
-            var text = "There are <strong>" + missing + " missing tests</strong>.<br>";
+            var text = "There are <strong>" + formatNumber(missing) + " missing tests</strong>.<br>";
             text += "At <strong>$" + multipliers.testCost + "</strong> per test and <strong>$" + multipliers.reviewCost + "</strong> per test review, ";
             text += "the overall estimated cost for outsourcing testing of this specification is: <strong>$";
             text += formatNumber((multipliers.testCost * missing) + (multipliers.reviewCost * missing));
