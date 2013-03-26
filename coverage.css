@@ -42,3 +42,24 @@ td.level3 {
 .hide-reqs .no-req {
 	display:none;
 }
+
+.hide-details tr .detailed-data {
+    display: none;
+}
+
+.detailed-data {
+	color: #666;
+	font-size: 0.8em;
+}
+
+.progress-bar-container {
+	border: 1px solid black;
+}
+
+.progress-bar {
+	height: 10px;
+	width: 0px;
+	margin: 1px;
+	background-color: #666;
+}
+

@@ -22,6 +22,10 @@
         <li>Level 2 <input type='radio' name='level' value='2'></li>
         <li>Level 3 <input type='radio' name='level' value='3'></li>
       </ul>
+      
+      <p>
+        <label><input type='checkbox' name='reqs-only' id="reqs-only"> Only show sections with requirements.</label>
+      </p>
     </div>
     <div>
       <h4>Thresholds:</h4>
@@ -36,6 +40,9 @@
         <li>Tests per IDL item: <input type='number' name='idl' size='4' value='5'> <small><label><input type='checkbox' name='assume-idl' id="assume-idl" checked> Assume idlharness gives 100% coverage of IDL items.</label></small></li>
       </ul>
       
+      <p>
+        <label><input type='checkbox' name='show-details' id="show-details"> Show detailed coverage data.</label>
+      </p>
       <h4>Cost:</h4>
       <ul>
         <li>Estimated cost per test: $<input type='test-cost' name='test-cost' size='4' value='40'></li>
@@ -43,9 +50,7 @@
       </ul>
       <button id='update'>Update</button>
     </div>
-    <p>
-      <label><input type='checkbox' name='reqs-only' id="reqs-only"> Only show sections with requirements.</label>
-    </p>
+
 
     <div id='output'></div>
     <ul id=color-coding>
@@ -58,10 +63,28 @@
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
     <script src='coverage.js'></script>
     <script>
-      cover(["css3transforms", "css3backgrounds", "html", "canvas2d"]
-          , ["CSS Transforms", "CSS Backgrounds & Borders", "HTML5", "Canvas 2D"]
-          , ["http://www.w3.org/TR/2012/WD-css3-transforms-20120911/", "http://www.w3.org/TR/2012/CR-css3-background-20120724/", "http://www.w3.org/TR/html5/single-page.html", "http://www.w3.org/TR/2012/CR-2dcontext-20121217/"]
-          , $("#output"));
+      cover([
+        {
+          shortName: "css3transforms",
+          title: "CSS Transforms",
+          url: "http://www.w3.org/TR/2012/WD-css3-transforms-20120911/"
+        },
+        {
+          shortName: "css3backgrounds",
+          title: "CSS Backgrounds & Borders",
+          url: "http://www.w3.org/TR/2012/CR-css3-background-20120724/"
+        },
+        {
+          shortName: "html",
+          title: "HTML5",
+          url: "http://www.w3.org/TR/html5/single-page.html"
+        },
+        {
+          shortName: "canvas2d",
+          title: "Canvas 2D",
+          url: "http://www.w3.org/TR/2012/CR-2dcontext-20121217/"
+        }
+      ], $("#output"));
     </script>
   </body>
 </html>
