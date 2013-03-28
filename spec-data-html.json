@@ -7,19 +7,21 @@
         "level": 1,
         "normativeStatements": 0,
         "original_id": "introduction",
+        "propdef": 0,
         "wordCount": 3,
         "tests": 0
     },
     {
-        "algorithmicSteps": 594,
+        "algorithmicSteps": 615,
         "end_id": "dom",
         "id": "infrastructure",
         "idlComplexity": 25,
         "level": 1,
-        "normativeStatements": 182,
+        "normativeStatements": 187,
         "original_id": "infrastructure",
-        "wordCount": 25554,
-        "tests": 0
+        "propdef": 0,
+        "wordCount": 26040,
+        "tests": 18
     },
     {
         "algorithmicSteps": 0,
@@ -27,9 +29,10 @@
         "id": "terminology",
         "idlComplexity": 0,
         "level": 2,
-        "normativeStatements": 9,
+        "normativeStatements": 8,
         "original_id": "terminology",
-        "wordCount": 1965,
+        "propdef": 0,
+        "wordCount": 1915,
         "tests": 0
     },
     {
@@ -40,6 +43,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "resources",
+        "propdef": 0,
         "wordCount": 295,
         "tests": 0
     },
@@ -51,6 +55,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "xml",
+        "propdef": 0,
         "wordCount": 202,
         "tests": 0
     },
@@ -62,6 +67,7 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "dom-trees",
+        "propdef": 0,
         "wordCount": 392,
         "tests": 0
     },
@@ -73,40 +79,44 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "scripting-0",
-        "wordCount": 151,
+        "propdef": 0,
+        "wordCount": 152,
         "tests": 0
     },
     {
         "algorithmicSteps": 0,
-        "end_id": "encoding-terminology",
+        "end_id": "character-encodings",
         "id": "plugins",
         "idlComplexity": 0,
         "level": 3,
         "normativeStatements": 2,
         "original_id": "plugins",
+        "propdef": 0,
         "wordCount": 145,
         "tests": 0
     },
     {
         "algorithmicSteps": 0,
         "end_id": "conformance-requirements",
-        "id": "encoding-terminology",
+        "id": "character-encodings",
         "idlComplexity": 0,
         "level": 3,
-        "normativeStatements": 3,
-        "original_id": "encoding-terminology",
-        "wordCount": 366,
+        "normativeStatements": 2,
+        "original_id": "character-encodings",
+        "propdef": 0,
+        "wordCount": 314,
         "tests": 0
     },
     {
-        "algorithmicSteps": 20,
+        "algorithmicSteps": 21,
         "end_id": "case-sensitivity-and-string-comparison",
         "id": "conformance-requirements",
         "idlComplexity": 0,
         "level": 2,
-        "normativeStatements": 37,
+        "normativeStatements": 36,
         "original_id": "conformance-requirements",
-        "wordCount": 3832,
+        "propdef": 0,
+        "wordCount": 3520,
         "tests": 0
     },
     {
@@ -117,18 +127,20 @@
         "level": 3,
         "normativeStatements": 17,
         "original_id": "conformance-classes",
+        "propdef": 0,
         "wordCount": 1114,
         "tests": 0
     },
     {
-        "algorithmicSteps": 20,
+        "algorithmicSteps": 21,
         "end_id": "extensibility",
         "id": "dependencies",
         "idlComplexity": 0,
         "level": 3,
-        "normativeStatements": 8,
+        "normativeStatements": 7,
         "original_id": "dependencies",
-        "wordCount": 1603,
+        "propdef": 0,
+        "wordCount": 1290,
         "tests": 0
     },
     {
@@ -139,29 +151,44 @@
         "level": 3,
         "normativeStatements": 10,
         "original_id": "extensibility",
+        "propdef": 0,
         "wordCount": 939,
         "tests": 0
     },
     {
         "algorithmicSteps": 0,
-        "end_id": "common-microsyntaxes",
+        "end_id": "utf-8",
         "id": "case-sensitivity-and-string-comparison",
         "idlComplexity": 0,
         "level": 2,
         "normativeStatements": 1,
         "original_id": "case-sensitivity-and-string-comparison",
+        "propdef": 0,
         "wordCount": 244,
         "tests": 0
     },
     {
-        "algorithmicSteps": 442,
+        "algorithmicSteps": 0,
+        "end_id": "common-microsyntaxes",
+        "id": "utf-8",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 4,
+        "original_id": "utf-8",
+        "propdef": 0,
+        "wordCount": 479,
+        "tests": 0
+    },
+    {
+        "algorithmicSteps": 458,
         "end_id": "urls",
         "id": "common-microsyntaxes",
         "idlComplexity": 0,
         "level": 2,
-        "normativeStatements": 21,
+        "normativeStatements": 23,
         "original_id": "common-microsyntaxes",
-        "wordCount": 10614,
+        "propdef": 0,
+        "wordCount": 10845,
         "tests": 0
     },
     {
@@ -172,7 +199,8 @@
         "level": 3,
         "normativeStatements": 6,
         "original_id": "common-parser-idioms",
-        "wordCount": 560,
+        "propdef": 0,
+        "wordCount": 434,
         "tests": 0
     },
     {
@@ -183,6 +211,7 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "boolean-attributes",
+        "propdef": 0,
         "wordCount": 67,
         "tests": 0
     },
@@ -194,6 +223,7 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "keywords-and-enumerated-attributes",
+        "propdef": 0,
         "wordCount": 267,
         "tests": 0
     },
@@ -205,7 +235,8 @@
         "level": 3,
         "normativeStatements": 5,
         "original_id": "numbers",
-        "wordCount": 2634,
+        "propdef": 0,
+        "wordCount": 2680,
         "tests": 0
     },
     {
@@ -214,9 +245,10 @@
         "id": "dates-and-times",
         "idlComplexity": 0,
         "level": 3,
-        "normativeStatements": 2,
+        "normativeStatements": 3,
         "original_id": "dates-and-times",
-        "wordCount": 5513,
+        "propdef": 0,
+        "wordCount": 5514,
         "tests": 0
     },
     {
@@ -227,18 +259,20 @@
         "level": 3,
         "normativeStatements": 2,
         "original_id": "colors",
-        "wordCount": 853,
+        "propdef": 0,
+        "wordCount": 960,
         "tests": 0
     },
     {
-        "algorithmicSteps": 9,
+        "algorithmicSteps": 25,
         "end_id": "comma-separated-tokens",
         "id": "space-separated-tokens",
         "idlComplexity": 0,
         "level": 3,
-        "normativeStatements": 2,
+        "normativeStatements": 3,
         "original_id": "space-separated-tokens",
-        "wordCount": 241,
+        "propdef": 0,
+        "wordCount": 445,
         "tests": 0
     },
     {
@@ -249,7 +283,8 @@
         "level": 3,
         "normativeStatements": 2,
         "original_id": "comma-separated-tokens",
-        "wordCount": 230,
+        "propdef": 0,
+        "wordCount": 229,
         "tests": 0
     },
     {
@@ -260,6 +295,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "syntax-references",
+        "propdef": 0,
         "wordCount": 157,
         "tests": 0
     },
@@ -271,6 +307,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "mq",
+        "propdef": 0,
         "wordCount": 65,
         "tests": 0
     },
@@ -282,7 +319,8 @@
         "level": 2,
         "normativeStatements": 15,
         "original_id": "urls",
-        "wordCount": 2472,
+        "propdef": 0,
+        "wordCount": 2456,
         "tests": 0
     },
     {
@@ -293,6 +331,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "terminology-0",
+        "propdef": 0,
         "wordCount": 212,
         "tests": 0
     },
@@ -304,7 +343,8 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "parsing-urls",
-        "wordCount": 349,
+        "propdef": 0,
+        "wordCount": 337,
         "tests": 0
     },
     {
@@ -315,6 +355,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "base-urls",
+        "propdef": 0,
         "wordCount": 185,
         "tests": 0
     },
@@ -326,7 +367,8 @@
         "level": 3,
         "normativeStatements": 2,
         "original_id": "resolving-urls",
-        "wordCount": 731,
+        "propdef": 0,
+        "wordCount": 724,
         "tests": 0
     },
     {
@@ -337,6 +379,7 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "url-manipulation-and-creation",
+        "propdef": 0,
         "wordCount": 155,
         "tests": 0
     },
@@ -348,7 +391,8 @@
         "level": 3,
         "normativeStatements": 2,
         "original_id": "dynamic-changes-to-base-urls",
-        "wordCount": 187,
+        "propdef": 0,
+        "wordCount": 188,
         "tests": 0
     },
     {
@@ -359,7 +403,8 @@
         "level": 3,
         "normativeStatements": 9,
         "original_id": "interfaces-for-url-manipulation",
-        "wordCount": 614,
+        "propdef": 0,
+        "wordCount": 616,
         "tests": 0
     },
     {
@@ -370,7 +415,8 @@
         "level": 2,
         "normativeStatements": 16,
         "original_id": "fetching-resources",
-        "wordCount": 2381,
+        "propdef": 0,
+        "wordCount": 2365,
         "tests": 0
     },
     {
@@ -381,6 +427,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "terminology-1",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -392,6 +439,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "processing-model",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -403,6 +451,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "encrypted-http-and-related-security-concerns",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -414,6 +463,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "content-type-sniffing",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -425,7 +475,8 @@
         "level": 3,
         "normativeStatements": 13,
         "original_id": "extracting-character-encodings-from-meta-elements",
-        "wordCount": 1672,
+        "propdef": 0,
+        "wordCount": 1656,
         "tests": 0
     },
     {
@@ -436,6 +487,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "cors-settings-attributes",
+        "propdef": 0,
         "wordCount": 123,
         "tests": 0
     },
@@ -447,19 +499,21 @@
         "level": 3,
         "normativeStatements": 3,
         "original_id": "cors-enabled-fetch",
+        "propdef": 0,
         "wordCount": 589,
         "tests": 0
     },
     {
-        "algorithmicSteps": 46,
+        "algorithmicSteps": 50,
         "end_id": "namespaces",
         "id": "common-dom-interfaces",
         "idlComplexity": 25,
         "level": 2,
-        "normativeStatements": 83,
+        "normativeStatements": 84,
         "original_id": "common-dom-interfaces",
-        "wordCount": 3968,
-        "tests": 0
+        "propdef": 0,
+        "wordCount": 4140,
+        "tests": 18
     },
     {
         "algorithmicSteps": 4,
@@ -469,28 +523,31 @@
         "level": 3,
         "normativeStatements": 57,
         "original_id": "reflecting-content-attributes-in-idl-attributes",
+        "propdef": 0,
         "wordCount": 1648,
         "tests": 0
     },
     {
-        "algorithmicSteps": 30,
+        "algorithmicSteps": 34,
         "end_id": "domstringmap",
         "id": "collections",
-        "idlComplexity": 20,
+        "idlComplexity": 19,
         "level": 3,
         "normativeStatements": 19,
         "original_id": "collections",
-        "wordCount": 1254,
-        "tests": 0
+        "propdef": 0,
+        "wordCount": 1354,
+        "tests": 18
     },
     {
         "algorithmicSteps": 0,
         "end_id": "transferable-objects",
         "id": "domstringmap",
-        "idlComplexity": 5,
+        "idlComplexity": 6,
         "level": 3,
         "normativeStatements": 3,
         "original_id": "domstringmap",
+        "propdef": 0,
         "wordCount": 193,
         "tests": 0
     },
@@ -502,18 +559,32 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "transferable-objects",
-        "wordCount": 108,
+        "propdef": 0,
+        "wordCount": 107,
         "tests": 0
     },
     {
         "algorithmicSteps": 12,
-        "end_id": "garbage-collection",
+        "end_id": "dom-feature-strings",
         "id": "safe-passing-of-structured-data",
         "idlComplexity": 0,
         "level": 3,
         "normativeStatements": 3,
         "original_id": "safe-passing-of-structured-data",
-        "wordCount": 745,
+        "propdef": 0,
+        "wordCount": 721,
+        "tests": 0
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "garbage-collection",
+        "id": "dom-feature-strings",
+        "idlComplexity": 0,
+        "level": 3,
+        "normativeStatements": 1,
+        "original_id": "dom-feature-strings",
+        "propdef": 0,
+        "wordCount": 98,
         "tests": 0
     },
     {
@@ -524,6 +595,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "garbage-collection",
+        "propdef": 0,
         "wordCount": 23,
         "tests": 0
     },
@@ -535,40 +607,44 @@
         "level": 2,
         "normativeStatements": 0,
         "original_id": "namespaces",
+        "propdef": 0,
         "wordCount": 83,
         "tests": 0
     },
     {
-        "algorithmicSteps": 133,
+        "algorithmicSteps": 132,
         "end_id": "semantics",
         "id": "dom",
-        "idlComplexity": 84,
+        "idlComplexity": 190,
         "level": 1,
-        "normativeStatements": 157,
+        "normativeStatements": 154,
         "original_id": "dom",
-        "wordCount": 12561,
-        "tests": 202
+        "propdef": 0,
+        "wordCount": 12686,
+        "tests": 197
     },
     {
         "algorithmicSteps": 48,
         "end_id": "elements",
         "id": "documents",
-        "idlComplexity": 50,
+        "idlComplexity": 103,
         "level": 2,
-        "normativeStatements": 41,
+        "normativeStatements": 39,
         "original_id": "documents",
-        "wordCount": 2243,
-        "tests": 52
+        "propdef": 0,
+        "wordCount": 2224,
+        "tests": 51
     },
     {
         "algorithmicSteps": 0,
         "end_id": "security-document",
         "id": "the-document-object",
-        "idlComplexity": 48,
+        "idlComplexity": 101,
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-document-object",
-        "wordCount": 17,
+        "propdef": 0,
+        "wordCount": 18,
         "tests": 0
     },
     {
@@ -579,6 +655,7 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "security-document",
+        "propdef": 0,
         "wordCount": 35,
         "tests": 0
     },
@@ -590,7 +667,8 @@
         "level": 3,
         "normativeStatements": 15,
         "original_id": "resource-metadata-management",
-        "wordCount": 586,
+        "propdef": 0,
+        "wordCount": 594,
         "tests": 6
     },
     {
@@ -599,10 +677,11 @@
         "id": "dom-tree-accessors",
         "idlComplexity": 0,
         "level": 3,
-        "normativeStatements": 23,
+        "normativeStatements": 21,
         "original_id": "dom-tree-accessors",
-        "wordCount": 1083,
-        "tests": 46
+        "propdef": 0,
+        "wordCount": 1055,
+        "tests": 45
     },
     {
         "algorithmicSteps": 17,
@@ -612,6 +691,7 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "loading-xml-documents",
+        "propdef": 0,
         "wordCount": 263,
         "tests": 0
     },
@@ -619,12 +699,13 @@
         "algorithmicSteps": 42,
         "end_id": "interactions-with-xpath-and-xslt",
         "id": "elements",
-        "idlComplexity": 35,
+        "idlComplexity": 88,
         "level": 2,
-        "normativeStatements": 103,
+        "normativeStatements": 102,
         "original_id": "elements",
-        "wordCount": 8588,
-        "tests": 64
+        "propdef": 0,
+        "wordCount": 8754,
+        "tests": 60
     },
     {
         "algorithmicSteps": 0,
@@ -634,6 +715,7 @@
         "level": 3,
         "normativeStatements": 3,
         "original_id": "semantics-0",
+        "propdef": 0,
         "wordCount": 211,
         "tests": 0
     },
@@ -641,10 +723,11 @@
         "algorithmicSteps": 0,
         "end_id": "global-attributes",
         "id": "elements-in-the-dom",
-        "idlComplexity": 35,
+        "idlComplexity": 88,
         "level": 3,
         "normativeStatements": 3,
         "original_id": "elements-in-the-dom",
+        "propdef": 0,
         "wordCount": 145,
         "tests": 1
     },
@@ -656,8 +739,9 @@
         "level": 3,
         "normativeStatements": 38,
         "original_id": "global-attributes",
-        "wordCount": 3157,
-        "tests": 63
+        "propdef": 0,
+        "wordCount": 3179,
+        "tests": 59
     },
     {
         "algorithmicSteps": 0,
@@ -667,6 +751,7 @@
         "level": 3,
         "normativeStatements": 2,
         "original_id": "element-definitions",
+        "propdef": 0,
         "wordCount": 197,
         "tests": 0
     },
@@ -678,7 +763,8 @@
         "level": 3,
         "normativeStatements": 21,
         "original_id": "content-models",
-        "wordCount": 2141,
+        "propdef": 0,
+        "wordCount": 2154,
         "tests": 0
     },
     {
@@ -689,6 +775,7 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "requirements-relating-to-bidirectional-algorithm-formatting-characters",
+        "propdef": 0,
         "wordCount": 418,
         "tests": 0
     },
@@ -698,9 +785,10 @@
         "id": "wai-aria",
         "idlComplexity": 0,
         "level": 3,
-        "normativeStatements": 35,
+        "normativeStatements": 34,
         "original_id": "wai-aria",
-        "wordCount": 2323,
+        "propdef": 0,
+        "wordCount": 2454,
         "tests": 0
     },
     {
@@ -711,29 +799,32 @@
         "level": 2,
         "normativeStatements": 5,
         "original_id": "interactions-with-xpath-and-xslt",
+        "propdef": 0,
         "wordCount": 498,
         "tests": 0
     },
     {
-        "algorithmicSteps": 41,
+        "algorithmicSteps": 40,
         "end_id": "semantics",
         "id": "dynamic-markup-insertion",
         "idlComplexity": 0,
         "level": 2,
         "normativeStatements": 8,
         "original_id": "dynamic-markup-insertion",
-        "wordCount": 1228,
+        "propdef": 0,
+        "wordCount": 1206,
         "tests": 86
     },
     {
-        "algorithmicSteps": 29,
+        "algorithmicSteps": 28,
         "end_id": "closing-the-input-stream",
         "id": "opening-the-input-stream",
         "idlComplexity": 0,
         "level": 3,
         "normativeStatements": 4,
         "original_id": "opening-the-input-stream",
-        "wordCount": 824,
+        "propdef": 0,
+        "wordCount": 802,
         "tests": 4
     },
     {
@@ -744,6 +835,7 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "closing-the-input-stream",
+        "propdef": 0,
         "wordCount": 96,
         "tests": 1
     },
@@ -755,6 +847,7 @@
         "level": 3,
         "normativeStatements": 2,
         "original_id": "document.write()",
+        "propdef": 0,
         "wordCount": 270,
         "tests": 77
     },
@@ -766,19 +859,21 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "document.writeln()",
+        "propdef": 0,
         "wordCount": 37,
         "tests": 4
     },
     {
-        "algorithmicSteps": 1207,
+        "algorithmicSteps": 965,
         "end_id": "browsers",
         "id": "semantics",
-        "idlComplexity": 691,
+        "idlComplexity": 687,
         "level": 1,
-        "normativeStatements": 1832,
+        "normativeStatements": 1777,
         "original_id": "semantics",
-        "wordCount": 133812,
-        "tests": 1129
+        "propdef": 0,
+        "wordCount": 124850,
+        "tests": 1143
     },
     {
         "algorithmicSteps": 0,
@@ -788,6 +883,7 @@
         "level": 2,
         "normativeStatements": 1,
         "original_id": "the-root-element",
+        "propdef": 0,
         "wordCount": 168,
         "tests": 0
     },
@@ -799,6 +895,7 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "the-html-element",
+        "propdef": 0,
         "wordCount": 164,
         "tests": 0
     },
@@ -806,11 +903,12 @@
         "algorithmicSteps": 57,
         "end_id": "scripting-1",
         "id": "document-metadata",
-        "idlComplexity": 27,
+        "idlComplexity": 26,
         "level": 2,
-        "normativeStatements": 146,
+        "normativeStatements": 143,
         "original_id": "document-metadata",
-        "wordCount": 7527,
+        "propdef": 0,
+        "wordCount": 7421,
         "tests": 27
     },
     {
@@ -821,6 +919,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-head-element",
+        "propdef": 0,
         "wordCount": 83,
         "tests": 0
     },
@@ -830,9 +929,10 @@
         "id": "the-title-element",
         "idlComplexity": 3,
         "level": 3,
-        "normativeStatements": 7,
+        "normativeStatements": 6,
         "original_id": "the-title-element",
-        "wordCount": 226,
+        "propdef": 0,
+        "wordCount": 219,
         "tests": 24
     },
     {
@@ -843,6 +943,7 @@
         "level": 3,
         "normativeStatements": 9,
         "original_id": "the-base-element",
+        "propdef": 0,
         "wordCount": 337,
         "tests": 0
     },
@@ -850,11 +951,12 @@
         "algorithmicSteps": 4,
         "end_id": "the-meta-element",
         "id": "the-link-element",
-        "idlComplexity": 12,
+        "idlComplexity": 11,
         "level": 3,
-        "normativeStatements": 30,
+        "normativeStatements": 29,
         "original_id": "the-link-element",
-        "wordCount": 1612,
+        "propdef": 0,
+        "wordCount": 1529,
         "tests": 2
     },
     {
@@ -865,7 +967,8 @@
         "level": 3,
         "normativeStatements": 61,
         "original_id": "the-meta-element",
-        "wordCount": 3420,
+        "propdef": 0,
+        "wordCount": 3422,
         "tests": 0
     },
     {
@@ -876,6 +979,7 @@
         "level": 3,
         "normativeStatements": 25,
         "original_id": "the-style-element",
+        "propdef": 0,
         "wordCount": 1068,
         "tests": 1
     },
@@ -885,31 +989,34 @@
         "id": "styling",
         "idlComplexity": 0,
         "level": 3,
-        "normativeStatements": 14,
+        "normativeStatements": 13,
         "original_id": "styling",
-        "wordCount": 784,
+        "propdef": 0,
+        "wordCount": 766,
         "tests": 0
     },
     {
-        "algorithmicSteps": 58,
+        "algorithmicSteps": 50,
         "end_id": "sections",
         "id": "scripting-1",
-        "idlComplexity": 9,
+        "idlComplexity": 8,
         "level": 2,
-        "normativeStatements": 72,
+        "normativeStatements": 75,
         "original_id": "scripting-1",
-        "wordCount": 4888,
+        "propdef": 0,
+        "wordCount": 4653,
         "tests": 339
     },
     {
-        "algorithmicSteps": 49,
+        "algorithmicSteps": 41,
         "end_id": "the-noscript-element",
         "id": "the-script-element",
-        "idlComplexity": 9,
+        "idlComplexity": 8,
         "level": 3,
-        "normativeStatements": 64,
+        "normativeStatements": 67,
         "original_id": "the-script-element",
-        "wordCount": 4270,
+        "propdef": 0,
+        "wordCount": 4035,
         "tests": 339
     },
     {
@@ -920,6 +1027,7 @@
         "level": 3,
         "normativeStatements": 8,
         "original_id": "the-noscript-element",
+        "propdef": 0,
         "wordCount": 569,
         "tests": 0
     },
@@ -927,22 +1035,24 @@
         "algorithmicSteps": 16,
         "end_id": "grouping-content",
         "id": "sections",
-        "idlComplexity": 3,
+        "idlComplexity": 20,
         "level": 2,
         "normativeStatements": 6,
         "original_id": "sections",
-        "wordCount": 2760,
+        "propdef": 0,
+        "wordCount": 2693,
         "tests": 0
     },
     {
         "algorithmicSteps": 0,
         "end_id": "the-article-element",
         "id": "the-body-element",
-        "idlComplexity": 3,
+        "idlComplexity": 20,
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-body-element",
-        "wordCount": 140,
+        "propdef": 0,
+        "wordCount": 144,
         "tests": 0
     },
     {
@@ -953,7 +1063,8 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-article-element",
-        "wordCount": 216,
+        "propdef": 0,
+        "wordCount": 161,
         "tests": 0
     },
     {
@@ -964,6 +1075,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-section-element",
+        "propdef": 0,
         "wordCount": 64,
         "tests": 0
     },
@@ -975,6 +1087,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-nav-element",
+        "propdef": 0,
         "wordCount": 62,
         "tests": 0
     },
@@ -986,6 +1099,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-aside-element",
+        "propdef": 0,
         "wordCount": 115,
         "tests": 0
     },
@@ -997,6 +1111,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",
+        "propdef": 0,
         "wordCount": 110,
         "tests": 0
     },
@@ -1008,6 +1123,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-hgroup-element",
+        "propdef": 0,
         "wordCount": 144,
         "tests": 0
     },
@@ -1019,6 +1135,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-header-element",
+        "propdef": 0,
         "wordCount": 54,
         "tests": 0
     },
@@ -1030,6 +1147,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-footer-element",
+        "propdef": 0,
         "wordCount": 138,
         "tests": 0
     },
@@ -1041,6 +1159,7 @@
         "level": 3,
         "normativeStatements": 2,
         "original_id": "the-address-element",
+        "propdef": 0,
         "wordCount": 323,
         "tests": 0
     },
@@ -1052,7 +1171,8 @@
         "level": 3,
         "normativeStatements": 4,
         "original_id": "headings-and-sections",
-        "wordCount": 1402,
+        "propdef": 0,
+        "wordCount": 1386,
         "tests": 0
     },
     {
@@ -1061,10 +1181,11 @@
         "id": "grouping-content",
         "idlComplexity": 9,
         "level": 2,
-        "normativeStatements": 22,
+        "normativeStatements": 21,
         "original_id": "grouping-content",
-        "wordCount": 2356,
-        "tests": 2
+        "propdef": 0,
+        "wordCount": 2084,
+        "tests": 1
     },
     {
         "algorithmicSteps": 0,
@@ -1074,6 +1195,7 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "the-p-element",
+        "propdef": 0,
         "wordCount": 54,
         "tests": 0
     },
@@ -1085,6 +1207,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-hr-element",
+        "propdef": 0,
         "wordCount": 58,
         "tests": 0
     },
@@ -1096,6 +1219,7 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "the-pre-element",
+        "propdef": 0,
         "wordCount": 202,
         "tests": 0
     },
@@ -1105,9 +1229,10 @@
         "id": "the-blockquote-element",
         "idlComplexity": 3,
         "level": 3,
-        "normativeStatements": 5,
+        "normativeStatements": 6,
         "original_id": "the-blockquote-element",
-        "wordCount": 183,
+        "propdef": 0,
+        "wordCount": 160,
         "tests": 0
     },
     {
@@ -1118,8 +1243,9 @@
         "level": 3,
         "normativeStatements": 6,
         "original_id": "the-ol-element",
+        "propdef": 0,
         "wordCount": 560,
-        "tests": 2
+        "tests": 1
     },
     {
         "algorithmicSteps": 0,
@@ -1129,6 +1255,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-ul-element",
+        "propdef": 0,
         "wordCount": 94,
         "tests": 0
     },
@@ -1140,7 +1267,8 @@
         "level": 3,
         "normativeStatements": 4,
         "original_id": "the-li-element",
-        "wordCount": 221,
+        "propdef": 0,
+        "wordCount": 213,
         "tests": 0
     },
     {
@@ -1151,6 +1279,7 @@
         "level": 3,
         "normativeStatements": 3,
         "original_id": "the-dl-element",
+        "propdef": 0,
         "wordCount": 335,
         "tests": 0
     },
@@ -1162,6 +1291,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-dt-element",
+        "propdef": 0,
         "wordCount": 65,
         "tests": 0
     },
@@ -1173,6 +1303,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-dd-element",
+        "propdef": 0,
         "wordCount": 55,
         "tests": 0
     },
@@ -1184,6 +1315,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-figure-element",
+        "propdef": 0,
         "wordCount": 169,
         "tests": 0
     },
@@ -1195,51 +1327,44 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-figcaption-element",
+        "propdef": 0,
         "wordCount": 60,
         "tests": 0
     },
     {
         "algorithmicSteps": 0,
-        "end_id": "the-main-element",
+        "end_id": "text-level-semantics",
         "id": "the-div-element",
         "idlComplexity": 1,
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-div-element",
+        "propdef": 0,
         "wordCount": 68,
         "tests": 0
     },
     {
-        "algorithmicSteps": 0,
-        "end_id": "text-level-semantics",
-        "id": "the-main-element",
-        "idlComplexity": 0,
-        "level": 3,
-        "normativeStatements": 2,
-        "original_id": "the-main-element",
-        "wordCount": 242,
-        "tests": 0
-    },
-    {
-        "algorithmicSteps": 70,
+        "algorithmicSteps": 69,
         "end_id": "edits",
         "id": "text-level-semantics",
-        "idlComplexity": 21,
+        "idlComplexity": 22,
         "level": 2,
-        "normativeStatements": 51,
+        "normativeStatements": 53,
         "original_id": "text-level-semantics",
-        "wordCount": 6195,
-        "tests": 14
+        "propdef": 0,
+        "wordCount": 6125,
+        "tests": 22
     },
     {
-        "algorithmicSteps": 6,
+        "algorithmicSteps": 5,
         "end_id": "the-em-element",
         "id": "the-a-element",
-        "idlComplexity": 19,
+        "idlComplexity": 20,
         "level": 3,
         "normativeStatements": 9,
         "original_id": "the-a-element",
-        "wordCount": 593,
+        "propdef": 0,
+        "wordCount": 604,
         "tests": 14
     },
     {
@@ -1250,6 +1375,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-em-element",
+        "propdef": 0,
         "wordCount": 102,
         "tests": 0
     },
@@ -1261,6 +1387,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-strong-element",
+        "propdef": 0,
         "wordCount": 94,
         "tests": 0
     },
@@ -1272,6 +1399,7 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "the-small-element",
+        "propdef": 0,
         "wordCount": 117,
         "tests": 0
     },
@@ -1283,6 +1411,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-s-element",
+        "propdef": 0,
         "wordCount": 51,
         "tests": 0
     },
@@ -1294,6 +1423,7 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "the-cite-element",
+        "propdef": 0,
         "wordCount": 200,
         "tests": 0
     },
@@ -1303,9 +1433,10 @@
         "id": "the-q-element",
         "idlComplexity": 0,
         "level": 3,
-        "normativeStatements": 5,
+        "normativeStatements": 6,
         "original_id": "the-q-element",
-        "wordCount": 244,
+        "propdef": 0,
+        "wordCount": 221,
         "tests": 0
     },
     {
@@ -1316,6 +1447,7 @@
         "level": 3,
         "normativeStatements": 3,
         "original_id": "the-dfn-element",
+        "propdef": 0,
         "wordCount": 209,
         "tests": 0
     },
@@ -1327,6 +1459,7 @@
         "level": 3,
         "normativeStatements": 2,
         "original_id": "the-abbr-element",
+        "propdef": 0,
         "wordCount": 281,
         "tests": 0
     },
@@ -1338,8 +1471,9 @@
         "level": 3,
         "normativeStatements": 5,
         "original_id": "the-time-element",
-        "wordCount": 491,
-        "tests": 0
+        "propdef": 0,
+        "wordCount": 479,
+        "tests": 8
     },
     {
         "algorithmicSteps": 0,
@@ -1349,6 +1483,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-code-element",
+        "propdef": 0,
         "wordCount": 118,
         "tests": 0
     },
@@ -1360,6 +1495,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-var-element",
+        "propdef": 0,
         "wordCount": 116,
         "tests": 0
     },
@@ -1371,6 +1507,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-samp-element",
+        "propdef": 0,
         "wordCount": 49,
         "tests": 0
     },
@@ -1382,6 +1519,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-kbd-element",
+        "propdef": 0,
         "wordCount": 129,
         "tests": 0
     },
@@ -1393,6 +1531,7 @@
         "level": 3,
         "normativeStatements": 2,
         "original_id": "the-sub-and-sup-elements",
+        "propdef": 0,
         "wordCount": 180,
         "tests": 0
     },
@@ -1404,6 +1543,7 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "the-i-element",
+        "propdef": 0,
         "wordCount": 219,
         "tests": 0
     },
@@ -1415,6 +1555,7 @@
         "level": 3,
         "normativeStatements": 5,
         "original_id": "the-b-element",
+        "propdef": 0,
         "wordCount": 194,
         "tests": 0
     },
@@ -1426,6 +1567,7 @@
         "level": 3,
         "normativeStatements": 5,
         "original_id": "the-u-element",
+        "propdef": 0,
         "wordCount": 156,
         "tests": 0
     },
@@ -1437,6 +1579,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-mark-element",
+        "propdef": 0,
         "wordCount": 156,
         "tests": 0
     },
@@ -1448,7 +1591,8 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-ruby-element",
-        "wordCount": 1567,
+        "propdef": 0,
+        "wordCount": 1504,
         "tests": 0
     },
     {
@@ -1459,7 +1603,8 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-rt-element",
-        "wordCount": 92,
+        "propdef": 0,
+        "wordCount": 103,
         "tests": 0
     },
     {
@@ -1468,9 +1613,10 @@
         "id": "the-rp-element",
         "idlComplexity": 0,
         "level": 3,
-        "normativeStatements": 0,
+        "normativeStatements": 1,
         "original_id": "the-rp-element",
-        "wordCount": 99,
+        "propdef": 0,
+        "wordCount": 105,
         "tests": 0
     },
     {
@@ -1481,6 +1627,7 @@
         "level": 3,
         "normativeStatements": 2,
         "original_id": "the-bdi-element",
+        "propdef": 0,
         "wordCount": 177,
         "tests": 0
     },
@@ -1492,6 +1639,7 @@
         "level": 3,
         "normativeStatements": 3,
         "original_id": "the-bdo-element",
+        "propdef": 0,
         "wordCount": 239,
         "tests": 0
     },
@@ -1503,6 +1651,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-span-element",
+        "propdef": 0,
         "wordCount": 64,
         "tests": 0
     },
@@ -1514,6 +1663,7 @@
         "level": 3,
         "normativeStatements": 5,
         "original_id": "the-br-element",
+        "propdef": 0,
         "wordCount": 161,
         "tests": 0
     },
@@ -1525,6 +1675,7 @@
         "level": 3,
         "normativeStatements": 2,
         "original_id": "the-wbr-element",
+        "propdef": 0,
         "wordCount": 120,
         "tests": 0
     },
@@ -1534,9 +1685,10 @@
         "id": "edits",
         "idlComplexity": 4,
         "level": 2,
-        "normativeStatements": 10,
+        "normativeStatements": 11,
         "original_id": "edits",
-        "wordCount": 426,
+        "propdef": 0,
+        "wordCount": 389,
         "tests": 0
     },
     {
@@ -1547,6 +1699,7 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "the-ins-element",
+        "propdef": 0,
         "wordCount": 57,
         "tests": 0
     },
@@ -1558,6 +1711,7 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "the-del-element",
+        "propdef": 0,
         "wordCount": 55,
         "tests": 0
     },
@@ -1567,42 +1721,46 @@
         "id": "attributes-common-to-ins-and-del-elements",
         "idlComplexity": 4,
         "level": 3,
-        "normativeStatements": 8,
+        "normativeStatements": 9,
         "original_id": "attributes-common-to-ins-and-del-elements",
-        "wordCount": 304,
+        "propdef": 0,
+        "wordCount": 267,
         "tests": 0
     },
     {
-        "algorithmicSteps": 436,
+        "algorithmicSteps": 422,
         "end_id": "tabular-data",
         "id": "embedded-content-0",
-        "idlComplexity": 305,
+        "idlComplexity": 295,
         "level": 2,
-        "normativeStatements": 685,
+        "normativeStatements": 664,
         "original_id": "embedded-content-0",
-        "wordCount": 45739,
-        "tests": 444
+        "propdef": 0,
+        "wordCount": 44405,
+        "tests": 451
     },
     {
-        "algorithmicSteps": 24,
+        "algorithmicSteps": 16,
         "end_id": "the-iframe-element",
         "id": "the-img-element",
         "idlComplexity": 16,
         "level": 3,
-        "normativeStatements": 89,
+        "normativeStatements": 84,
         "original_id": "the-img-element",
-        "wordCount": 4839,
+        "propdef": 0,
+        "wordCount": 4459,
         "tests": 0
     },
     {
-        "algorithmicSteps": 8,
+        "algorithmicSteps": 7,
         "end_id": "the-embed-element",
         "id": "the-iframe-element",
-        "idlComplexity": 12,
+        "idlComplexity": 11,
         "level": 3,
         "normativeStatements": 43,
         "original_id": "the-iframe-element",
-        "wordCount": 2276,
+        "propdef": 0,
+        "wordCount": 2164,
         "tests": 0
     },
     {
@@ -1613,7 +1771,8 @@
         "level": 3,
         "normativeStatements": 20,
         "original_id": "the-embed-element",
-        "wordCount": 1041,
+        "propdef": 0,
+        "wordCount": 1054,
         "tests": 0
     },
     {
@@ -1624,6 +1783,7 @@
         "level": 3,
         "normativeStatements": 32,
         "original_id": "the-object-element",
+        "propdef": 0,
         "wordCount": 2520,
         "tests": 0
     },
@@ -1635,6 +1795,7 @@
         "level": 3,
         "normativeStatements": 3,
         "original_id": "the-param-element",
+        "propdef": 0,
         "wordCount": 204,
         "tests": 0
     },
@@ -1646,8 +1807,9 @@
         "level": 3,
         "normativeStatements": 15,
         "original_id": "the-video-element",
-        "wordCount": 1323,
-        "tests": 187
+        "propdef": 0,
+        "wordCount": 1308,
+        "tests": 183
     },
     {
         "algorithmicSteps": 0,
@@ -1657,8 +1819,9 @@
         "level": 3,
         "normativeStatements": 8,
         "original_id": "the-audio-element",
-        "wordCount": 357,
-        "tests": 85
+        "propdef": 0,
+        "wordCount": 358,
+        "tests": 96
     },
     {
         "algorithmicSteps": 0,
@@ -1668,6 +1831,7 @@
         "level": 3,
         "normativeStatements": 6,
         "original_id": "the-source-element",
+        "propdef": 0,
         "wordCount": 237,
         "tests": 0
     },
@@ -1679,29 +1843,32 @@
         "level": 3,
         "normativeStatements": 15,
         "original_id": "the-track-element",
-        "wordCount": 876,
+        "propdef": 0,
+        "wordCount": 871,
         "tests": 0
     },
     {
-        "algorithmicSteps": 330,
+        "algorithmicSteps": 325,
         "end_id": "the-canvas-element",
         "id": "media-elements",
-        "idlComplexity": 185,
+        "idlComplexity": 184,
         "level": 3,
-        "normativeStatements": 354,
+        "normativeStatements": 350,
         "original_id": "media-elements",
-        "wordCount": 26461,
+        "propdef": 0,
+        "wordCount": 26212,
         "tests": 62
     },
     {
-        "algorithmicSteps": 16,
+        "algorithmicSteps": 17,
         "end_id": "the-map-element",
         "id": "the-canvas-element",
-        "idlComplexity": 18,
+        "idlComplexity": 9,
         "level": 3,
-        "normativeStatements": 50,
+        "normativeStatements": 38,
         "original_id": "the-canvas-element",
-        "wordCount": 2744,
+        "propdef": 0,
+        "wordCount": 2168,
         "tests": 101
     },
     {
@@ -1712,18 +1879,20 @@
         "level": 3,
         "normativeStatements": 7,
         "original_id": "the-map-element",
+        "propdef": 0,
         "wordCount": 189,
         "tests": 0
     },
     {
-        "algorithmicSteps": 3,
+        "algorithmicSteps": 2,
         "end_id": "image-maps",
         "id": "the-area-element",
-        "idlComplexity": 20,
+        "idlComplexity": 21,
         "level": 3,
         "normativeStatements": 24,
         "original_id": "the-area-element",
-        "wordCount": 934,
+        "propdef": 0,
+        "wordCount": 923,
         "tests": 9
     },
     {
@@ -1734,6 +1903,7 @@
         "level": 3,
         "normativeStatements": 12,
         "original_id": "image-maps",
+        "propdef": 0,
         "wordCount": 1081,
         "tests": 0
     },
@@ -1745,6 +1915,7 @@
         "level": 3,
         "normativeStatements": 2,
         "original_id": "mathml",
+        "propdef": 0,
         "wordCount": 177,
         "tests": 0
     },
@@ -1756,6 +1927,7 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "svg",
+        "propdef": 0,
         "wordCount": 194,
         "tests": 0
     },
@@ -1767,29 +1939,32 @@
         "level": 3,
         "normativeStatements": 4,
         "original_id": "dimension-attributes",
+        "propdef": 0,
         "wordCount": 299,
         "tests": 0
     },
     {
-        "algorithmicSteps": 201,
+        "algorithmicSteps": 108,
         "end_id": "forms",
         "id": "tabular-data",
-        "idlComplexity": 41,
+        "idlComplexity": 37,
         "level": 2,
-        "normativeStatements": 113,
+        "normativeStatements": 97,
         "original_id": "tabular-data",
-        "wordCount": 10150,
+        "propdef": 0,
+        "wordCount": 7079,
         "tests": 31
     },
     {
         "algorithmicSteps": 3,
         "end_id": "the-caption-element",
         "id": "the-table-element",
-        "idlComplexity": 19,
+        "idlComplexity": 17,
         "level": 3,
-        "normativeStatements": 51,
+        "normativeStatements": 50,
         "original_id": "the-table-element",
-        "wordCount": 2024,
+        "propdef": 0,
+        "wordCount": 1996,
         "tests": 14
     },
     {
@@ -1800,6 +1975,7 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "the-caption-element",
+        "propdef": 0,
         "wordCount": 114,
         "tests": 0
     },
@@ -1811,6 +1987,7 @@
         "level": 3,
         "normativeStatements": 3,
         "original_id": "the-colgroup-element",
+        "propdef": 0,
         "wordCount": 158,
         "tests": 0
     },
@@ -1822,6 +1999,7 @@
         "level": 3,
         "normativeStatements": 3,
         "original_id": "the-col-element",
+        "propdef": 0,
         "wordCount": 148,
         "tests": 0
     },
@@ -1833,7 +2011,8 @@
         "level": 3,
         "normativeStatements": 8,
         "original_id": "the-tbody-element",
-        "wordCount": 286,
+        "propdef": 0,
+        "wordCount": 289,
         "tests": 0
     },
     {
@@ -1844,6 +2023,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-thead-element",
+        "propdef": 0,
         "wordCount": 112,
         "tests": 0
     },
@@ -1855,6 +2035,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-tfoot-element",
+        "propdef": 0,
         "wordCount": 144,
         "tests": 0
     },
@@ -1866,6 +2047,7 @@
         "level": 3,
         "normativeStatements": 12,
         "original_id": "the-tr-element",
+        "propdef": 0,
         "wordCount": 382,
         "tests": 12
     },
@@ -1877,6 +2059,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-td-element",
+        "propdef": 0,
         "wordCount": 150,
         "tests": 0
     },
@@ -1884,11 +2067,12 @@
         "algorithmicSteps": 0,
         "end_id": "attributes-common-to-td-and-th-elements",
         "id": "the-th-element",
-        "idlComplexity": 6,
+        "idlComplexity": 4,
         "level": 3,
         "normativeStatements": 5,
         "original_id": "the-th-element",
-        "wordCount": 434,
+        "propdef": 0,
+        "wordCount": 383,
         "tests": 0
     },
     {
@@ -1899,40 +2083,32 @@
         "level": 3,
         "normativeStatements": 11,
         "original_id": "attributes-common-to-td-and-th-elements",
-        "wordCount": 372,
+        "propdef": 0,
+        "wordCount": 351,
         "tests": 5
     },
     {
         "algorithmicSteps": 105,
-        "end_id": "table-sorting-model",
+        "end_id": "forms",
         "id": "processing-model-1",
         "idlComplexity": 0,
         "level": 3,
         "normativeStatements": 4,
         "original_id": "processing-model-1",
-        "wordCount": 2893,
+        "propdef": 0,
+        "wordCount": 2861,
         "tests": 0
     },
     {
-        "algorithmicSteps": 93,
-        "end_id": "forms",
-        "id": "table-sorting-model",
-        "idlComplexity": 0,
-        "level": 3,
-        "normativeStatements": 15,
-        "original_id": "table-sorting-model",
-        "wordCount": 2943,
-        "tests": 0
-    },
-    {
-        "algorithmicSteps": 306,
+        "algorithmicSteps": 184,
         "end_id": "interactive-elements",
         "id": "forms",
-        "idlComplexity": 260,
+        "idlComplexity": 255,
         "level": 2,
-        "normativeStatements": 535,
+        "normativeStatements": 510,
         "original_id": "forms",
-        "wordCount": 38436,
+        "propdef": 0,
+        "wordCount": 34579,
         "tests": 141
     },
     {
@@ -1943,6 +2119,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "categories",
+        "propdef": 0,
         "wordCount": 213,
         "tests": 0
     },
@@ -1954,7 +2131,8 @@
         "level": 3,
         "normativeStatements": 16,
         "original_id": "the-form-element",
-        "wordCount": 813,
+        "propdef": 0,
+        "wordCount": 815,
         "tests": 9
     },
     {
@@ -1965,6 +2143,7 @@
         "level": 3,
         "normativeStatements": 3,
         "original_id": "the-fieldset-element",
+        "propdef": 0,
         "wordCount": 219,
         "tests": 0
     },
@@ -1976,6 +2155,7 @@
         "level": 3,
         "normativeStatements": 2,
         "original_id": "the-legend-element",
+        "propdef": 0,
         "wordCount": 106,
         "tests": 0
     },
@@ -1987,29 +2167,32 @@
         "level": 3,
         "normativeStatements": 6,
         "original_id": "the-label-element",
+        "propdef": 0,
         "wordCount": 381,
         "tests": 0
     },
     {
-        "algorithmicSteps": 35,
+        "algorithmicSteps": 28,
         "end_id": "the-button-element",
         "id": "the-input-element",
-        "idlComplexity": 57,
+        "idlComplexity": 56,
         "level": 3,
-        "normativeStatements": 231,
+        "normativeStatements": 235,
         "original_id": "the-input-element",
-        "wordCount": 16368,
+        "propdef": 0,
+        "wordCount": 16213,
         "tests": 71
     },
     {
-        "algorithmicSteps": 4,
+        "algorithmicSteps": 0,
         "end_id": "the-select-element",
         "id": "the-button-element",
-        "idlComplexity": 22,
+        "idlComplexity": 21,
         "level": 3,
-        "normativeStatements": 10,
+        "normativeStatements": 6,
         "original_id": "the-button-element",
-        "wordCount": 643,
+        "propdef": 0,
+        "wordCount": 460,
         "tests": 0
     },
     {
@@ -2020,7 +2203,8 @@
         "level": 3,
         "normativeStatements": 28,
         "original_id": "the-select-element",
-        "wordCount": 1555,
+        "propdef": 0,
+        "wordCount": 1502,
         "tests": 0
     },
     {
@@ -2031,6 +2215,7 @@
         "level": 3,
         "normativeStatements": 2,
         "original_id": "the-datalist-element",
+        "propdef": 0,
         "wordCount": 183,
         "tests": 0
     },
@@ -2042,6 +2227,7 @@
         "level": 3,
         "normativeStatements": 4,
         "original_id": "the-optgroup-element",
+        "propdef": 0,
         "wordCount": 170,
         "tests": 0
     },
@@ -2051,20 +2237,22 @@
         "id": "the-option-element",
         "idlComplexity": 16,
         "level": 3,
-        "normativeStatements": 26,
+        "normativeStatements": 24,
         "original_id": "the-option-element",
-        "wordCount": 882,
+        "propdef": 0,
+        "wordCount": 813,
         "tests": 60
     },
     {
         "algorithmicSteps": 6,
         "end_id": "the-keygen-element",
         "id": "the-textarea-element",
-        "idlComplexity": 36,
+        "idlComplexity": 34,
         "level": 3,
-        "normativeStatements": 30,
+        "normativeStatements": 29,
         "original_id": "the-textarea-element",
-        "wordCount": 1673,
+        "propdef": 0,
+        "wordCount": 1632,
         "tests": 1
     },
     {
@@ -2075,6 +2263,7 @@
         "level": 3,
         "normativeStatements": 4,
         "original_id": "the-keygen-element",
+        "propdef": 0,
         "wordCount": 805,
         "tests": 0
     },
@@ -2086,6 +2275,7 @@
         "level": 3,
         "normativeStatements": 11,
         "original_id": "the-output-element",
+        "propdef": 0,
         "wordCount": 456,
         "tests": 0
     },
@@ -2097,40 +2287,44 @@
         "level": 3,
         "normativeStatements": 15,
         "original_id": "the-progress-element",
+        "propdef": 0,
         "wordCount": 683,
         "tests": 0
     },
     {
         "algorithmicSteps": 0,
-        "end_id": "form-control-infrastructure",
+        "end_id": "association-of-controls-and-forms",
         "id": "the-meter-element",
         "idlComplexity": 9,
         "level": 3,
         "normativeStatements": 33,
         "original_id": "the-meter-element",
+        "propdef": 0,
         "wordCount": 1501,
         "tests": 0
     },
     {
         "algorithmicSteps": 7,
         "end_id": "attributes-common-to-form-controls",
-        "id": "form-control-infrastructure",
+        "id": "association-of-controls-and-forms",
         "idlComplexity": 0,
         "level": 3,
         "normativeStatements": 10,
-        "original_id": "form-control-infrastructure",
-        "wordCount": 542,
+        "original_id": "association-of-controls-and-forms",
+        "propdef": 0,
+        "wordCount": 471,
         "tests": 0
     },
     {
-        "algorithmicSteps": 114,
+        "algorithmicSteps": 9,
         "end_id": "textFieldSelection",
         "id": "attributes-common-to-form-controls",
         "idlComplexity": 0,
         "level": 3,
-        "normativeStatements": 43,
+        "normativeStatements": 23,
         "original_id": "attributes-common-to-form-controls",
-        "wordCount": 4789,
+        "propdef": 0,
+        "wordCount": 1609,
         "tests": 0
     },
     {
@@ -2141,6 +2335,7 @@
         "level": 3,
         "normativeStatements": 23,
         "original_id": "textFieldSelection",
+        "propdef": 0,
         "wordCount": 798,
         "tests": 0
     },
@@ -2148,22 +2343,24 @@
         "algorithmicSteps": 16,
         "end_id": "form-submission-0",
         "id": "constraints",
-        "idlComplexity": 12,
+        "idlComplexity": 11,
         "level": 3,
         "normativeStatements": 16,
         "original_id": "constraints",
-        "wordCount": 1255,
+        "propdef": 0,
+        "wordCount": 1216,
         "tests": 0
     },
     {
-        "algorithmicSteps": 106,
+        "algorithmicSteps": 100,
         "end_id": "resetting-a-form",
         "id": "form-submission-0",
         "idlComplexity": 0,
         "level": 3,
-        "normativeStatements": 20,
+        "normativeStatements": 18,
         "original_id": "form-submission-0",
-        "wordCount": 4332,
+        "propdef": 0,
+        "wordCount": 4266,
         "tests": 0
     },
     {
@@ -2174,18 +2371,20 @@
         "level": 3,
         "normativeStatements": 2,
         "original_id": "resetting-a-form",
-        "wordCount": 89,
+        "propdef": 0,
+        "wordCount": 87,
         "tests": 0
     },
     {
-        "algorithmicSteps": 37,
+        "algorithmicSteps": 33,
         "end_id": "links",
         "id": "interactive-elements",
-        "idlComplexity": 21,
+        "idlComplexity": 20,
         "level": 2,
-        "normativeStatements": 83,
+        "normativeStatements": 87,
         "original_id": "interactive-elements",
-        "wordCount": 7840,
+        "propdef": 0,
+        "wordCount": 7627,
         "tests": 0
     },
     {
@@ -2196,51 +2395,44 @@
         "level": 3,
         "normativeStatements": 9,
         "original_id": "the-details-element",
+        "propdef": 0,
         "wordCount": 267,
         "tests": 0
     },
     {
         "algorithmicSteps": 0,
-        "end_id": "the-menu-element",
+        "end_id": "the-command-element",
         "id": "the-summary-element",
         "idlComplexity": 0,
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-summary-element",
+        "propdef": 0,
         "wordCount": 59,
         "tests": 0
     },
     {
-        "algorithmicSteps": 7,
-        "end_id": "the-menuitem-element",
+        "algorithmicSteps": 0,
+        "end_id": "the-menu-element",
+        "id": "the-command-element",
+        "idlComplexity": 9,
+        "level": 3,
+        "normativeStatements": 17,
+        "original_id": "the-command-element",
+        "propdef": 0,
+        "wordCount": 890,
+        "tests": 0
+    },
+    {
+        "algorithmicSteps": 3,
+        "end_id": "commands",
         "id": "the-menu-element",
         "idlComplexity": 4,
         "level": 3,
-        "normativeStatements": 5,
+        "normativeStatements": 20,
         "original_id": "the-menu-element",
-        "wordCount": 915,
-        "tests": 0
-    },
-    {
-        "algorithmicSteps": 0,
-        "end_id": "context-menus",
-        "id": "the-menuitem-element",
-        "idlComplexity": 10,
-        "level": 3,
-        "normativeStatements": 17,
-        "original_id": "the-menuitem-element",
-        "wordCount": 957,
-        "tests": 0
-    },
-    {
-        "algorithmicSteps": 0,
-        "end_id": "commands",
-        "id": "context-menus",
-        "idlComplexity": 0,
-        "level": 3,
-        "normativeStatements": 9,
-        "original_id": "context-menus",
-        "wordCount": 485,
+        "propdef": 0,
+        "wordCount": 1447,
         "tests": 0
     },
     {
@@ -2251,7 +2443,8 @@
         "level": 3,
         "normativeStatements": 15,
         "original_id": "commands",
-        "wordCount": 2815,
+        "propdef": 0,
+        "wordCount": 2779,
         "tests": 0
     },
     {
@@ -2260,9 +2453,10 @@
         "id": "the-dialog-element",
         "idlComplexity": 7,
         "level": 3,
-        "normativeStatements": 28,
+        "normativeStatements": 26,
         "original_id": "the-dialog-element",
-        "wordCount": 2345,
+        "propdef": 0,
+        "wordCount": 2187,
         "tests": 0
     },
     {
@@ -2271,9 +2465,10 @@
         "id": "links",
         "idlComplexity": 0,
         "level": 2,
-        "normativeStatements": 84,
+        "normativeStatements": 85,
         "original_id": "links",
-        "wordCount": 5790,
+        "propdef": 0,
+        "wordCount": 5856,
         "tests": 0
     },
     {
@@ -2284,6 +2479,7 @@
         "level": 3,
         "normativeStatements": 3,
         "original_id": "introduction-3",
+        "propdef": 0,
         "wordCount": 253,
         "tests": 0
     },
@@ -2293,9 +2489,10 @@
         "id": "links-created-by-a-and-area-elements",
         "idlComplexity": 0,
         "level": 3,
-        "normativeStatements": 9,
+        "normativeStatements": 10,
         "original_id": "links-created-by-a-and-area-elements",
-        "wordCount": 274,
+        "propdef": 0,
+        "wordCount": 308,
         "tests": 0
     },
     {
@@ -2306,6 +2503,7 @@
         "level": 3,
         "normativeStatements": 10,
         "original_id": "following-hyperlinks",
+        "propdef": 0,
         "wordCount": 352,
         "tests": 0
     },
@@ -2317,6 +2515,7 @@
         "level": 3,
         "normativeStatements": 20,
         "original_id": "downloading-resources",
+        "propdef": 0,
         "wordCount": 1767,
         "tests": 0
     },
@@ -2328,18 +2527,32 @@
         "level": 3,
         "normativeStatements": 42,
         "original_id": "linkTypes",
-        "wordCount": 3147,
+        "propdef": 0,
+        "wordCount": 3179,
         "tests": 0
     },
     {
         "algorithmicSteps": 0,
-        "end_id": "disabled-elements",
+        "end_id": "selectors",
         "id": "common-idioms",
         "idlComplexity": 0,
         "level": 2,
         "normativeStatements": 2,
         "original_id": "common-idioms",
-        "wordCount": 294,
+        "propdef": 0,
+        "wordCount": 496,
+        "tests": 0
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "rel-up",
+        "id": "the-main-part-of-the-content",
+        "idlComplexity": 0,
+        "level": 3,
+        "normativeStatements": 0,
+        "original_id": "the-main-part-of-the-content",
+        "propdef": 0,
+        "wordCount": 203,
         "tests": 0
     },
     {
@@ -2350,6 +2563,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "rel-up",
+        "propdef": 0,
         "wordCount": 48,
         "tests": 0
     },
@@ -2361,6 +2575,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "tag-clouds",
+        "propdef": 0,
         "wordCount": 66,
         "tests": 0
     },
@@ -2372,29 +2587,20 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "conversations",
+        "propdef": 0,
         "wordCount": 82,
         "tests": 0
     },
     {
         "algorithmicSteps": 0,
-        "end_id": "disabled-elements",
+        "end_id": "selectors",
         "id": "footnotes",
         "idlComplexity": 0,
         "level": 3,
         "normativeStatements": 2,
         "original_id": "footnotes",
+        "propdef": 0,
         "wordCount": 95,
-        "tests": 0
-    },
-    {
-        "algorithmicSteps": 0,
-        "end_id": "selectors",
-        "id": "disabled-elements",
-        "idlComplexity": 0,
-        "level": 2,
-        "normativeStatements": 0,
-        "original_id": "disabled-elements",
-        "wordCount": 67,
         "tests": 0
     },
     {
@@ -2405,7 +2611,8 @@
         "level": 2,
         "normativeStatements": 22,
         "original_id": "selectors",
-        "wordCount": 1186,
+        "propdef": 0,
+        "wordCount": 1284,
         "tests": 0
     },
     {
@@ -2416,6 +2623,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "case-sensitivity",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -2427,19 +2635,21 @@
         "level": 3,
         "normativeStatements": 22,
         "original_id": "pseudo-classes",
-        "wordCount": 1186,
+        "propdef": 0,
+        "wordCount": 1284,
         "tests": 0
     },
     {
-        "algorithmicSteps": 354,
+        "algorithmicSteps": 348,
         "end_id": "webappapis",
         "id": "browsers",
-        "idlComplexity": 113,
+        "idlComplexity": 180,
         "level": 1,
-        "normativeStatements": 288,
+        "normativeStatements": 285,
         "original_id": "browsers",
-        "wordCount": 25708,
-        "tests": 193
+        "propdef": 0,
+        "wordCount": 25143,
+        "tests": 300
     },
     {
         "algorithmicSteps": 13,
@@ -2449,7 +2659,8 @@
         "level": 2,
         "normativeStatements": 29,
         "original_id": "windows",
-        "wordCount": 3027,
+        "propdef": 0,
+        "wordCount": 2932,
         "tests": 0
     },
     {
@@ -2460,7 +2671,8 @@
         "level": 3,
         "normativeStatements": 4,
         "original_id": "nested-browsing-contexts",
-        "wordCount": 732,
+        "propdef": 0,
+        "wordCount": 694,
         "tests": 0
     },
     {
@@ -2471,6 +2683,7 @@
         "level": 3,
         "normativeStatements": 4,
         "original_id": "auxiliary-browsing-contexts",
+        "propdef": 0,
         "wordCount": 162,
         "tests": 0
     },
@@ -2482,6 +2695,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "secondary-browsing-contexts",
+        "propdef": 0,
         "wordCount": 30,
         "tests": 0
     },
@@ -2493,6 +2707,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "security-nav",
+        "propdef": 0,
         "wordCount": 188,
         "tests": 0
     },
@@ -2504,6 +2719,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "groupings-of-browsing-contexts",
+        "propdef": 0,
         "wordCount": 161,
         "tests": 0
     },
@@ -2515,18 +2731,20 @@
         "level": 3,
         "normativeStatements": 18,
         "original_id": "browsing-context-names",
-        "wordCount": 1370,
+        "propdef": 0,
+        "wordCount": 1313,
         "tests": 0
     },
     {
         "algorithmicSteps": 15,
         "end_id": "origin",
         "id": "the-window-object",
-        "idlComplexity": 45,
+        "idlComplexity": 112,
         "level": 2,
         "normativeStatements": 44,
         "original_id": "the-window-object",
-        "wordCount": 2296,
+        "propdef": 0,
+        "wordCount": 2271,
         "tests": 184
     },
     {
@@ -2537,7 +2755,8 @@
         "level": 3,
         "normativeStatements": 4,
         "original_id": "security-window",
-        "wordCount": 187,
+        "propdef": 0,
+        "wordCount": 175,
         "tests": 0
     },
     {
@@ -2548,7 +2767,8 @@
         "level": 3,
         "normativeStatements": 13,
         "original_id": "apis-for-creating-and-navigating-browsing-contexts-by-name",
-        "wordCount": 740,
+        "propdef": 0,
+        "wordCount": 727,
         "tests": 0
     },
     {
@@ -2559,6 +2779,7 @@
         "level": 3,
         "normativeStatements": 3,
         "original_id": "accessing-other-browsing-contexts",
+        "propdef": 0,
         "wordCount": 173,
         "tests": 0
     },
@@ -2570,6 +2791,7 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "named-access-on-the-window-object",
+        "propdef": 0,
         "wordCount": 278,
         "tests": 0
     },
@@ -2581,6 +2803,7 @@
         "level": 3,
         "normativeStatements": 4,
         "original_id": "garbage-collection-and-browsing-contexts",
+        "propdef": 0,
         "wordCount": 229,
         "tests": 0
     },
@@ -2592,6 +2815,7 @@
         "level": 3,
         "normativeStatements": 2,
         "original_id": "closing-browsing-contexts",
+        "propdef": 0,
         "wordCount": 112,
         "tests": 0
     },
@@ -2603,6 +2827,7 @@
         "level": 3,
         "normativeStatements": 11,
         "original_id": "browser-interface-elements",
+        "propdef": 0,
         "wordCount": 420,
         "tests": 0
     },
@@ -2614,6 +2839,7 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "the-windowproxy-object",
+        "propdef": 0,
         "wordCount": 67,
         "tests": 0
     },
@@ -2625,6 +2851,7 @@
         "level": 2,
         "normativeStatements": 6,
         "original_id": "origin",
+        "propdef": 0,
         "wordCount": 1922,
         "tests": 0
     },
@@ -2636,30 +2863,33 @@
         "level": 3,
         "normativeStatements": 6,
         "original_id": "relaxing-the-same-origin-restriction",
+        "propdef": 0,
         "wordCount": 510,
         "tests": 0
     },
     {
-        "algorithmicSteps": 14,
+        "algorithmicSteps": 12,
         "end_id": "history",
         "id": "sandboxing",
         "idlComplexity": 0,
         "level": 2,
         "normativeStatements": 4,
         "original_id": "sandboxing",
-        "wordCount": 903,
+        "propdef": 0,
+        "wordCount": 829,
         "tests": 0
     },
     {
-        "algorithmicSteps": 30,
+        "algorithmicSteps": 29,
         "end_id": "browsing-the-web",
         "id": "history",
         "idlComplexity": 22,
         "level": 2,
-        "normativeStatements": 37,
+        "normativeStatements": 34,
         "original_id": "history",
-        "wordCount": 2468,
-        "tests": 4
+        "propdef": 0,
+        "wordCount": 2323,
+        "tests": 106
     },
     {
         "algorithmicSteps": 0,
@@ -2669,19 +2899,21 @@
         "level": 3,
         "normativeStatements": 6,
         "original_id": "the-session-history-of-browsing-contexts",
+        "propdef": 0,
         "wordCount": 474,
         "tests": 0
     },
     {
-        "algorithmicSteps": 30,
+        "algorithmicSteps": 29,
         "end_id": "the-location-interface",
         "id": "the-history-interface",
         "idlComplexity": 9,
         "level": 3,
         "normativeStatements": 11,
         "original_id": "the-history-interface",
-        "wordCount": 1148,
-        "tests": 0
+        "propdef": 0,
+        "wordCount": 1145,
+        "tests": 102
     },
     {
         "algorithmicSteps": 0,
@@ -2689,21 +2921,23 @@
         "id": "the-location-interface",
         "idlComplexity": 14,
         "level": 3,
-        "normativeStatements": 20,
+        "normativeStatements": 17,
         "original_id": "the-location-interface",
-        "wordCount": 843,
+        "propdef": 0,
+        "wordCount": 701,
         "tests": 4
     },
     {
-        "algorithmicSteps": 116,
+        "algorithmicSteps": 113,
         "end_id": "offline",
         "id": "browsing-the-web",
         "idlComplexity": 23,
         "level": 2,
         "normativeStatements": 94,
         "original_id": "browsing-the-web",
-        "wordCount": 7353,
-        "tests": 5
+        "propdef": 0,
+        "wordCount": 7140,
+        "tests": 10
     },
     {
         "algorithmicSteps": 0,
@@ -2713,6 +2947,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "navigating-across-documents",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -2724,6 +2959,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "read-html",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -2735,6 +2971,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "read-xml",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -2746,6 +2983,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "read-text",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 3
     },
@@ -2757,6 +2995,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "read-multipart-x-mixed-replace",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -2768,6 +3007,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "read-media",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 2
     },
@@ -2779,6 +3019,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "read-plugin",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -2790,29 +3031,32 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "read-ua-inline",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
     {
-        "algorithmicSteps": 49,
+        "algorithmicSteps": 46,
         "end_id": "history-traversal",
         "id": "scroll-to-fragid",
         "idlComplexity": 0,
         "level": 3,
         "normativeStatements": 62,
         "original_id": "scroll-to-fragid",
-        "wordCount": 5124,
+        "propdef": 0,
+        "wordCount": 5009,
         "tests": 0
     },
     {
-        "algorithmicSteps": 29,
+        "algorithmicSteps": 28,
         "end_id": "unloading-documents",
         "id": "history-traversal",
         "idlComplexity": 21,
         "level": 3,
         "normativeStatements": 16,
         "original_id": "history-traversal",
-        "wordCount": 1133,
+        "propdef": 0,
+        "wordCount": 1096,
         "tests": 0
     },
     {
@@ -2823,18 +3067,20 @@
         "level": 3,
         "normativeStatements": 14,
         "original_id": "unloading-documents",
-        "wordCount": 910,
-        "tests": 0
+        "propdef": 0,
+        "wordCount": 906,
+        "tests": 5
     },
     {
-        "algorithmicSteps": 3,
+        "algorithmicSteps": 4,
         "end_id": "offline",
         "id": "aborting-a-document-load",
         "idlComplexity": 0,
         "level": 3,
         "normativeStatements": 2,
         "original_id": "aborting-a-document-load",
-        "wordCount": 187,
+        "propdef": 0,
+        "wordCount": 130,
         "tests": 0
     },
     {
@@ -2845,7 +3091,8 @@
         "level": 2,
         "normativeStatements": 74,
         "original_id": "offline",
-        "wordCount": 7704,
+        "propdef": 0,
+        "wordCount": 7691,
         "tests": 0
     },
     {
@@ -2856,6 +3103,7 @@
         "level": 3,
         "normativeStatements": 2,
         "original_id": "appcache",
+        "propdef": 0,
         "wordCount": 599,
         "tests": 0
     },
@@ -2867,6 +3115,7 @@
         "level": 3,
         "normativeStatements": 21,
         "original_id": "manifests",
+        "propdef": 0,
         "wordCount": 718,
         "tests": 0
     },
@@ -2878,6 +3127,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "downloading-or-updating-an-application-cache",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -2889,6 +3139,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-application-cache-selection-algorithm",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -2900,7 +3151,8 @@
         "level": 3,
         "normativeStatements": 34,
         "original_id": "changesToNetworkingModel",
-        "wordCount": 5468,
+        "propdef": 0,
+        "wordCount": 5455,
         "tests": 0
     },
     {
@@ -2911,6 +3163,7 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "expiring-application-caches",
+        "propdef": 0,
         "wordCount": 99,
         "tests": 0
     },
@@ -2922,6 +3175,7 @@
         "level": 3,
         "normativeStatements": 3,
         "original_id": "disk-space",
+        "propdef": 0,
         "wordCount": 60,
         "tests": 0
     },
@@ -2933,6 +3187,7 @@
         "level": 3,
         "normativeStatements": 9,
         "original_id": "application-cache-api",
+        "propdef": 0,
         "wordCount": 624,
         "tests": 0
     },
@@ -2944,30 +3199,33 @@
         "level": 3,
         "normativeStatements": 4,
         "original_id": "browser-state",
+        "propdef": 0,
         "wordCount": 142,
         "tests": 0
     },
     {
-        "algorithmicSteps": 225,
+        "algorithmicSteps": 173,
         "end_id": "editing",
         "id": "webappapis",
-        "idlComplexity": 145,
+        "idlComplexity": 48,
         "level": 1,
-        "normativeStatements": 143,
+        "normativeStatements": 136,
         "original_id": "webappapis",
-        "wordCount": 12626,
-        "tests": 379
+        "propdef": 0,
+        "wordCount": 11150,
+        "tests": 504
     },
     {
-        "algorithmicSteps": 63,
+        "algorithmicSteps": 64,
         "end_id": "atob",
         "id": "scripting",
-        "idlComplexity": 81,
+        "idlComplexity": 5,
         "level": 2,
         "normativeStatements": 53,
         "original_id": "scripting",
-        "wordCount": 5120,
-        "tests": 2
+        "propdef": 0,
+        "wordCount": 4988,
+        "tests": 16
     },
     {
         "algorithmicSteps": 0,
@@ -2977,40 +3235,44 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "introduction-5",
+        "propdef": 0,
         "wordCount": 88,
         "tests": 0
     },
     {
         "algorithmicSteps": 0,
-        "end_id": "processing-model-3",
+        "end_id": "processing-model-2",
         "id": "enabling-and-disabling-scripting",
         "idlComplexity": 0,
         "level": 3,
         "normativeStatements": 0,
         "original_id": "enabling-and-disabling-scripting",
+        "propdef": 0,
         "wordCount": 160,
         "tests": 0
     },
     {
-        "algorithmicSteps": 22,
+        "algorithmicSteps": 24,
         "end_id": "event-loops",
-        "id": "processing-model-3",
+        "id": "processing-model-2",
         "idlComplexity": 0,
         "level": 3,
         "normativeStatements": 15,
-        "original_id": "processing-model-3",
-        "wordCount": 1783,
-        "tests": 0
+        "original_id": "processing-model-2",
+        "propdef": 0,
+        "wordCount": 1764,
+        "tests": 14
     },
     {
-        "algorithmicSteps": 22,
+        "algorithmicSteps": 21,
         "end_id": "javascript-protocol",
         "id": "event-loops",
         "idlComplexity": 0,
         "level": 3,
         "normativeStatements": 14,
         "original_id": "event-loops",
-        "wordCount": 1104,
+        "propdef": 0,
+        "wordCount": 1086,
         "tests": 0
     },
     {
@@ -3021,6 +3283,7 @@
         "level": 3,
         "normativeStatements": 3,
         "original_id": "javascript-protocol",
+        "propdef": 0,
         "wordCount": 313,
         "tests": 0
     },
@@ -3028,22 +3291,24 @@
         "algorithmicSteps": 16,
         "end_id": "atob",
         "id": "events",
-        "idlComplexity": 81,
+        "idlComplexity": 5,
         "level": 3,
         "normativeStatements": 21,
         "original_id": "events",
-        "wordCount": 1679,
+        "propdef": 0,
+        "wordCount": 1584,
         "tests": 2
     },
     {
-        "algorithmicSteps": 18,
+        "algorithmicSteps": 20,
         "end_id": "timers",
         "id": "atob",
         "idlComplexity": 6,
         "level": 2,
         "normativeStatements": 4,
         "original_id": "atob",
-        "wordCount": 472,
+        "propdef": 0,
+        "wordCount": 477,
         "tests": 376
     },
     {
@@ -3054,6 +3319,7 @@
         "level": 2,
         "normativeStatements": 5,
         "original_id": "timers",
+        "propdef": 0,
         "wordCount": 1004,
         "tests": 1
     },
@@ -3065,7 +3331,8 @@
         "level": 2,
         "normativeStatements": 25,
         "original_id": "user-prompts",
-        "wordCount": 1270,
+        "propdef": 0,
+        "wordCount": 1269,
         "tests": 0
     },
     {
@@ -3076,6 +3343,7 @@
         "level": 3,
         "normativeStatements": 4,
         "original_id": "simple-dialogs",
+        "propdef": 0,
         "wordCount": 317,
         "tests": 0
     },
@@ -3087,7 +3355,8 @@
         "level": 3,
         "normativeStatements": 9,
         "original_id": "printing",
-        "wordCount": 258,
+        "propdef": 0,
+        "wordCount": 257,
         "tests": 0
     },
     {
@@ -3098,51 +3367,44 @@
         "level": 3,
         "normativeStatements": 12,
         "original_id": "dialogs-implemented-using-separate-documents",
+        "propdef": 0,
         "wordCount": 694,
         "tests": 0
     },
     {
         "algorithmicSteps": 23,
-        "end_id": "images",
+        "end_id": "editing",
         "id": "system-state-and-capabilities",
-        "idlComplexity": 31,
+        "idlComplexity": 27,
         "level": 2,
-        "normativeStatements": 52,
+        "normativeStatements": 49,
         "original_id": "system-state-and-capabilities",
-        "wordCount": 3619,
-        "tests": 0
+        "propdef": 0,
+        "wordCount": 3412,
+        "tests": 111
     },
     {
         "algorithmicSteps": 8,
         "end_id": "the-external-interface",
         "id": "the-navigator-object",
-        "idlComplexity": 28,
+        "idlComplexity": 24,
         "level": 3,
-        "normativeStatements": 47,
+        "normativeStatements": 44,
         "original_id": "the-navigator-object",
-        "wordCount": 3190,
-        "tests": 0
+        "propdef": 0,
+        "wordCount": 2983,
+        "tests": 111
     },
     {
         "algorithmicSteps": 15,
-        "end_id": "images",
+        "end_id": "editing",
         "id": "the-external-interface",
         "idlComplexity": 4,
         "level": 3,
         "normativeStatements": 5,
         "original_id": "the-external-interface",
+        "propdef": 0,
         "wordCount": 425,
-        "tests": 0
-    },
-    {
-        "algorithmicSteps": 55,
-        "end_id": "editing",
-        "id": "images",
-        "idlComplexity": 18,
-        "level": 2,
-        "normativeStatements": 4,
-        "original_id": "images",
-        "wordCount": 1142,
         "tests": 0
     },
     {
@@ -3151,9 +3413,10 @@
         "id": "editing",
         "idlComplexity": 54,
         "level": 1,
-        "normativeStatements": 153,
+        "normativeStatements": 151,
         "original_id": "editing",
-        "wordCount": 11067,
+        "propdef": 0,
+        "wordCount": 10869,
         "tests": 13
     },
     {
@@ -3164,6 +3427,7 @@
         "level": 2,
         "normativeStatements": 8,
         "original_id": "the-hidden-attribute",
+        "propdef": 0,
         "wordCount": 565,
         "tests": 0
     },
@@ -3173,20 +3437,10 @@
         "id": "inert-subtrees",
         "idlComplexity": 0,
         "level": 2,
-        "normativeStatements": 4,
+        "normativeStatements": 3,
         "original_id": "inert-subtrees",
-        "wordCount": 236,
-        "tests": 0
-    },
-    {
-        "algorithmicSteps": 0,
-        "end_id": "activation",
-        "id": "the-inert-attribute",
-        "idlComplexity": 0,
-        "level": 3,
-        "normativeStatements": 1,
-        "original_id": "the-inert-attribute",
-        "wordCount": 41,
+        "propdef": 0,
+        "wordCount": 196,
         "tests": 0
     },
     {
@@ -3197,6 +3451,7 @@
         "level": 2,
         "normativeStatements": 1,
         "original_id": "activation",
+        "propdef": 0,
         "wordCount": 15,
         "tests": 0
     },
@@ -3206,9 +3461,10 @@
         "id": "focus",
         "idlComplexity": 0,
         "level": 2,
-        "normativeStatements": 29,
+        "normativeStatements": 30,
         "original_id": "focus",
-        "wordCount": 1545,
+        "propdef": 0,
+        "wordCount": 1562,
         "tests": 0
     },
     {
@@ -3219,7 +3475,8 @@
         "level": 3,
         "normativeStatements": 13,
         "original_id": "sequential-focus-navigation-and-the-tabindex-attribute",
-        "wordCount": 614,
+        "propdef": 0,
+        "wordCount": 518,
         "tests": 0
     },
     {
@@ -3228,9 +3485,10 @@
         "id": "focus-management",
         "idlComplexity": 0,
         "level": 3,
-        "normativeStatements": 5,
+        "normativeStatements": 6,
         "original_id": "focus-management",
-        "wordCount": 492,
+        "propdef": 0,
+        "wordCount": 605,
         "tests": 0
     },
     {
@@ -3241,6 +3499,7 @@
         "level": 3,
         "normativeStatements": 3,
         "original_id": "document-level-focus-apis",
+        "propdef": 0,
         "wordCount": 216,
         "tests": 0
     },
@@ -3252,6 +3511,7 @@
         "level": 3,
         "normativeStatements": 2,
         "original_id": "element-level-focus-apis",
+        "propdef": 0,
         "wordCount": 83,
         "tests": 0
     },
@@ -3263,29 +3523,32 @@
         "level": 2,
         "normativeStatements": 9,
         "original_id": "assigning-keyboard-shortcuts",
-        "wordCount": 471,
+        "propdef": 0,
+        "wordCount": 452,
         "tests": 0
     },
     {
         "algorithmicSteps": 0,
-        "end_id": "processing-model-5",
+        "end_id": "processing-model-4",
         "id": "the-accesskey-attribute",
         "idlComplexity": 0,
         "level": 3,
         "normativeStatements": 2,
         "original_id": "the-accesskey-attribute",
+        "propdef": 0,
         "wordCount": 67,
         "tests": 0
     },
     {
         "algorithmicSteps": 8,
         "end_id": "editing-0",
-        "id": "processing-model-5",
+        "id": "processing-model-4",
         "idlComplexity": 0,
         "level": 3,
         "normativeStatements": 7,
-        "original_id": "processing-model-5",
-        "wordCount": 402,
+        "original_id": "processing-model-4",
+        "propdef": 0,
+        "wordCount": 383,
         "tests": 0
     },
     {
@@ -3294,9 +3557,10 @@
         "id": "editing-0",
         "idlComplexity": 0,
         "level": 2,
-        "normativeStatements": 27,
+        "normativeStatements": 25,
         "original_id": "editing-0",
-        "wordCount": 1383,
+        "propdef": 0,
+        "wordCount": 1236,
         "tests": 13
     },
     {
@@ -3307,6 +3571,7 @@
         "level": 3,
         "normativeStatements": 6,
         "original_id": "contenteditable",
+        "propdef": 0,
         "wordCount": 236,
         "tests": 7
     },
@@ -3316,9 +3581,10 @@
         "id": "making-entire-documents-editable-the-designmode-idl-attribute",
         "idlComplexity": 0,
         "level": 3,
-        "normativeStatements": 9,
+        "normativeStatements": 8,
         "original_id": "making-entire-documents-editable:-the-designmode-idl-attribute",
-        "wordCount": 177,
+        "propdef": 0,
+        "wordCount": 128,
         "tests": 3
     },
     {
@@ -3329,6 +3595,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "best-practices-for-in-page-editors",
+        "propdef": 0,
         "wordCount": 63,
         "tests": 0
     },
@@ -3340,6 +3607,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "editing-apis",
+        "propdef": 0,
         "wordCount": 74,
         "tests": 0
     },
@@ -3349,9 +3617,10 @@
         "id": "spelling-and-grammar-checking",
         "idlComplexity": 0,
         "level": 3,
-        "normativeStatements": 12,
+        "normativeStatements": 11,
         "original_id": "spelling-and-grammar-checking",
-        "wordCount": 835,
+        "propdef": 0,
+        "wordCount": 737,
         "tests": 3
     },
     {
@@ -3362,7 +3631,8 @@
         "level": 2,
         "normativeStatements": 75,
         "original_id": "dnd",
-        "wordCount": 6855,
+        "propdef": 0,
+        "wordCount": 6846,
         "tests": 0
     },
     {
@@ -3373,6 +3643,7 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "the-drag-data-store",
+        "propdef": 0,
         "wordCount": 410,
         "tests": 0
     },
@@ -3384,6 +3655,7 @@
         "level": 3,
         "normativeStatements": 32,
         "original_id": "the-datatransfer-interface",
+        "propdef": 0,
         "wordCount": 1946,
         "tests": 0
     },
@@ -3395,6 +3667,7 @@
         "level": 3,
         "normativeStatements": 4,
         "original_id": "the-dragevent-interface",
+        "propdef": 0,
         "wordCount": 497,
         "tests": 0
     },
@@ -3406,7 +3679,8 @@
         "level": 3,
         "normativeStatements": 16,
         "original_id": "drag-and-drop-processing-model",
-        "wordCount": 2601,
+        "propdef": 0,
+        "wordCount": 2592,
         "tests": 0
     },
     {
@@ -3417,6 +3691,7 @@
         "level": 3,
         "normativeStatements": 7,
         "original_id": "the-draggable-attribute",
+        "propdef": 0,
         "wordCount": 280,
         "tests": 0
     },
@@ -3428,6 +3703,7 @@
         "level": 3,
         "normativeStatements": 4,
         "original_id": "the-dropzone-attribute",
+        "propdef": 0,
         "wordCount": 677,
         "tests": 0
     },
@@ -3439,6 +3715,7 @@
         "level": 3,
         "normativeStatements": 7,
         "original_id": "security-risks-in-the-drag-and-drop-model",
+        "propdef": 0,
         "wordCount": 227,
         "tests": 0
     },
@@ -3448,10 +3725,11 @@
         "id": "syntax",
         "idlComplexity": 0,
         "level": 1,
-        "normativeStatements": 164,
+        "normativeStatements": 167,
         "original_id": "syntax",
-        "wordCount": 43475,
-        "tests": 9680
+        "propdef": 0,
+        "wordCount": 44123,
+        "tests": 9907
     },
     {
         "algorithmicSteps": 43,
@@ -3461,7 +3739,8 @@
         "level": 2,
         "normativeStatements": 56,
         "original_id": "writing",
-        "wordCount": 3490,
+        "propdef": 0,
+        "wordCount": 3564,
         "tests": 0
     },
     {
@@ -3472,6 +3751,7 @@
         "level": 3,
         "normativeStatements": 5,
         "original_id": "the-doctype",
+        "propdef": 0,
         "wordCount": 475,
         "tests": 0
     },
@@ -3483,7 +3763,8 @@
         "level": 3,
         "normativeStatements": 35,
         "original_id": "elements-0",
-        "wordCount": 2348,
+        "propdef": 0,
+        "wordCount": 2358,
         "tests": 0
     },
     {
@@ -3494,6 +3775,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "text",
+        "propdef": 0,
         "wordCount": 91,
         "tests": 0
     },
@@ -3505,7 +3787,8 @@
         "level": 3,
         "normativeStatements": 9,
         "original_id": "character-references",
-        "wordCount": 285,
+        "propdef": 0,
+        "wordCount": 327,
         "tests": 0
     },
     {
@@ -3516,6 +3799,7 @@
         "level": 3,
         "normativeStatements": 2,
         "original_id": "cdata-sections",
+        "propdef": 0,
         "wordCount": 36,
         "tests": 0
     },
@@ -3527,6 +3811,7 @@
         "level": 3,
         "normativeStatements": 3,
         "original_id": "comments",
+        "propdef": 0,
         "wordCount": 97,
         "tests": 0
     },
@@ -3536,10 +3821,11 @@
         "id": "parsing",
         "idlComplexity": 0,
         "level": 2,
-        "normativeStatements": 106,
+        "normativeStatements": 109,
         "original_id": "parsing",
-        "wordCount": 30272,
-        "tests": 9680
+        "propdef": 0,
+        "wordCount": 30846,
+        "tests": 9907
     },
     {
         "algorithmicSteps": 0,
@@ -3549,6 +3835,7 @@
         "level": 3,
         "normativeStatements": 2,
         "original_id": "overview-of-the-parsing-model",
+        "propdef": 0,
         "wordCount": 157,
         "tests": 0
     },
@@ -3558,9 +3845,10 @@
         "id": "the-input-byte-stream",
         "idlComplexity": 0,
         "level": 3,
-        "normativeStatements": 20,
+        "normativeStatements": 23,
         "original_id": "the-input-byte-stream",
-        "wordCount": 3514,
+        "propdef": 0,
+        "wordCount": 3739,
         "tests": 0
     },
     {
@@ -3571,7 +3859,8 @@
         "level": 3,
         "normativeStatements": 7,
         "original_id": "parse-state",
-        "wordCount": 2087,
+        "propdef": 0,
+        "wordCount": 2135,
         "tests": 0
     },
     {
@@ -3582,7 +3871,8 @@
         "level": 3,
         "normativeStatements": 12,
         "original_id": "tokenization",
-        "wordCount": 8841,
+        "propdef": 0,
+        "wordCount": 9146,
         "tests": 0
     },
     {
@@ -3593,7 +3883,8 @@
         "level": 3,
         "normativeStatements": 56,
         "original_id": "tree-construction",
-        "wordCount": 14531,
+        "propdef": 0,
+        "wordCount": 14533,
         "tests": 0
     },
     {
@@ -3604,7 +3895,8 @@
         "level": 3,
         "normativeStatements": 4,
         "original_id": "the-end",
-        "wordCount": 558,
+        "propdef": 0,
+        "wordCount": 554,
         "tests": 0
     },
     {
@@ -3615,6 +3907,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "coercing-an-html-dom-into-an-infoset",
+        "propdef": 0,
         "wordCount": 384,
         "tests": 0
     },
@@ -3626,6 +3919,7 @@
         "level": 2,
         "normativeStatements": 0,
         "original_id": "serializing-html-fragments",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -3637,6 +3931,7 @@
         "level": 2,
         "normativeStatements": 2,
         "original_id": "parsing-html-fragments",
+        "propdef": 0,
         "wordCount": 2880,
         "tests": 0
     },
@@ -3648,6 +3943,7 @@
         "level": 2,
         "normativeStatements": 0,
         "original_id": "named-character-references",
+        "propdef": 0,
         "wordCount": 6834,
         "tests": 0
     },
@@ -3659,7 +3955,8 @@
         "level": 1,
         "normativeStatements": 21,
         "original_id": "the-xhtml-syntax",
-        "wordCount": 1407,
+        "propdef": 0,
+        "wordCount": 1389,
         "tests": 0
     },
     {
@@ -3670,6 +3967,7 @@
         "level": 2,
         "normativeStatements": 0,
         "original_id": "writing-xhtml-documents",
+        "propdef": 0,
         "wordCount": 82,
         "tests": 0
     },
@@ -3681,6 +3979,7 @@
         "level": 2,
         "normativeStatements": 0,
         "original_id": "parsing-xhtml-documents",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -3692,6 +3991,7 @@
         "level": 2,
         "normativeStatements": 0,
         "original_id": "serializing-xhtml-fragments",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -3703,7 +4003,8 @@
         "level": 2,
         "normativeStatements": 21,
         "original_id": "parsing-xhtml-fragments",
-        "wordCount": 1324,
+        "propdef": 0,
+        "wordCount": 1306,
         "tests": 0
     },
     {
@@ -3714,7 +4015,8 @@
         "level": 1,
         "normativeStatements": 5,
         "original_id": "rendering",
-        "wordCount": 15846,
+        "propdef": 0,
+        "wordCount": 15651,
         "tests": 0
     },
     {
@@ -3725,6 +4027,7 @@
         "level": 2,
         "normativeStatements": 0,
         "original_id": "introduction-8",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -3736,6 +4039,7 @@
         "level": 2,
         "normativeStatements": 0,
         "original_id": "the-css-user-agent-style-sheet-and-presentational-hints",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -3747,6 +4051,7 @@
         "level": 2,
         "normativeStatements": 0,
         "original_id": "non-replaced-elements",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -3758,6 +4063,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "hidden-elements",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -3769,6 +4075,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-page",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -3780,6 +4087,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "flow-content-0",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -3791,6 +4099,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "phrasing-content-0",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -3802,6 +4111,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "bidirectional-text",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -3813,6 +4123,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "quotes",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -3824,6 +4135,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "sections-and-headings",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -3835,6 +4147,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "lists",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -3846,6 +4159,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "tables",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -3857,6 +4171,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "form-controls",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -3868,6 +4183,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-hr-element-0",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -3879,6 +4195,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-fieldset-element-0",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -3890,28 +4207,31 @@
         "level": 2,
         "normativeStatements": 4,
         "original_id": "replaced-elements",
-        "wordCount": 10477,
+        "propdef": 0,
+        "wordCount": 10314,
         "tests": 0
     },
     {
         "algorithmicSteps": 12,
-        "end_id": "images-0",
+        "end_id": "images",
         "id": "embedded-content-1",
         "idlComplexity": 0,
         "level": 3,
         "normativeStatements": 4,
         "original_id": "embedded-content-1",
-        "wordCount": 9445,
+        "propdef": 0,
+        "wordCount": 9219,
         "tests": 0
     },
     {
         "algorithmicSteps": 0,
         "end_id": "attributes-for-embedded-content-and-images",
-        "id": "images-0",
+        "id": "images",
         "idlComplexity": 0,
         "level": 3,
         "normativeStatements": 0,
-        "original_id": "images-0",
+        "original_id": "images",
+        "propdef": 0,
         "wordCount": 531,
         "tests": 0
     },
@@ -3923,18 +4243,32 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "attributes-for-embedded-content-and-images",
-        "wordCount": 443,
+        "propdef": 0,
+        "wordCount": 434,
         "tests": 0
     },
     {
         "algorithmicSteps": 0,
-        "end_id": "bindings",
+        "end_id": "toolbars-0",
         "id": "image-maps-0",
         "idlComplexity": 0,
         "level": 3,
         "normativeStatements": 0,
         "original_id": "image-maps-0",
+        "propdef": 0,
         "wordCount": 64,
+        "tests": 0
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "bindings",
+        "id": "toolbars-0",
+        "idlComplexity": 0,
+        "level": 3,
+        "normativeStatements": 0,
+        "original_id": "toolbars-0",
+        "propdef": 0,
+        "wordCount": 74,
         "tests": 0
     },
     {
@@ -3945,7 +4279,8 @@
         "level": 2,
         "normativeStatements": 1,
         "original_id": "bindings",
-        "wordCount": 3273,
+        "propdef": 0,
+        "wordCount": 3237,
         "tests": 0
     },
     {
@@ -3956,6 +4291,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "introduction-9",
+        "propdef": 0,
         "wordCount": 116,
         "tests": 0
     },
@@ -3967,7 +4303,8 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-button-element-0",
-        "wordCount": 80,
+        "propdef": 0,
+        "wordCount": 44,
         "tests": 0
     },
     {
@@ -3978,6 +4315,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-details-element-0",
+        "propdef": 0,
         "wordCount": 184,
         "tests": 0
     },
@@ -3989,6 +4327,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-input-element-as-a-text-entry-widget",
+        "propdef": 0,
         "wordCount": 310,
         "tests": 0
     },
@@ -4000,6 +4339,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-input-element-as-domain-specific-widgets",
+        "propdef": 0,
         "wordCount": 303,
         "tests": 0
     },
@@ -4011,6 +4351,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-input-element-as-a-range-control",
+        "propdef": 0,
         "wordCount": 192,
         "tests": 0
     },
@@ -4022,6 +4363,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-input-element-as-a-color-well",
+        "propdef": 0,
         "wordCount": 97,
         "tests": 0
     },
@@ -4033,6 +4375,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-input-element-as-a-checkbox-and-radio-button-widgets",
+        "propdef": 0,
         "wordCount": 99,
         "tests": 0
     },
@@ -4044,6 +4387,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-input-element-as-a-file-upload-control",
+        "propdef": 0,
         "wordCount": 82,
         "tests": 0
     },
@@ -4055,6 +4399,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-input-element-as-a-button",
+        "propdef": 0,
         "wordCount": 88,
         "tests": 0
     },
@@ -4066,6 +4411,7 @@
         "level": 3,
         "normativeStatements": 1,
         "original_id": "the-marquee-element",
+        "propdef": 0,
         "wordCount": 618,
         "tests": 0
     },
@@ -4077,6 +4423,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-meter-element-0",
+        "propdef": 0,
         "wordCount": 139,
         "tests": 0
     },
@@ -4088,6 +4435,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-progress-element-0",
+        "propdef": 0,
         "wordCount": 201,
         "tests": 0
     },
@@ -4099,6 +4447,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-select-element-0",
+        "propdef": 0,
         "wordCount": 398,
         "tests": 0
     },
@@ -4110,6 +4459,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-textarea-element-0",
+        "propdef": 0,
         "wordCount": 352,
         "tests": 0
     },
@@ -4121,6 +4471,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-keygen-element-0",
+        "propdef": 0,
         "wordCount": 44,
         "tests": 0
     },
@@ -4132,6 +4483,7 @@
         "level": 2,
         "normativeStatements": 0,
         "original_id": "frames-and-framesets",
+        "propdef": 0,
         "wordCount": 1266,
         "tests": 0
     },
@@ -4143,6 +4495,7 @@
         "level": 2,
         "normativeStatements": 0,
         "original_id": "interactive-media",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -4154,6 +4507,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "links,-forms,-and-navigation",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -4165,6 +4519,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-title-attribute-0",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -4176,6 +4531,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "editing-hosts",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -4187,6 +4543,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "text-rendered-in-native-user-interfaces",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -4198,6 +4555,7 @@
         "level": 2,
         "normativeStatements": 0,
         "original_id": "print-media",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -4209,18 +4567,20 @@
         "level": 2,
         "normativeStatements": 0,
         "original_id": "unstyled-xml-documents",
-        "wordCount": 836,
+        "propdef": 0,
+        "wordCount": 840,
         "tests": 0
     },
     {
         "algorithmicSteps": 8,
         "end_id": "iana",
         "id": "obsolete",
-        "idlComplexity": 207,
+        "idlComplexity": 223,
         "level": 1,
-        "normativeStatements": 150,
+        "normativeStatements": 149,
         "original_id": "obsolete",
-        "wordCount": 5398,
+        "propdef": 0,
+        "wordCount": 5417,
         "tests": 25
     },
     {
@@ -4231,6 +4591,7 @@
         "level": 2,
         "normativeStatements": 16,
         "original_id": "obsolete-but-conforming-features",
+        "propdef": 0,
         "wordCount": 554,
         "tests": 0
     },
@@ -4242,6 +4603,7 @@
         "level": 3,
         "normativeStatements": 2,
         "original_id": "warnings-for-obsolete-but-conforming-features",
+        "propdef": 0,
         "wordCount": 255,
         "tests": 0
     },
@@ -4253,18 +4615,20 @@
         "level": 2,
         "normativeStatements": 3,
         "original_id": "non-conforming-features",
-        "wordCount": 1282,
+        "propdef": 0,
+        "wordCount": 1327,
         "tests": 0
     },
     {
         "algorithmicSteps": 8,
         "end_id": "iana",
         "id": "requirements-for-implementations",
-        "idlComplexity": 207,
+        "idlComplexity": 223,
         "level": 2,
-        "normativeStatements": 131,
+        "normativeStatements": 130,
         "original_id": "requirements-for-implementations",
-        "wordCount": 3562,
+        "propdef": 0,
+        "wordCount": 3536,
         "tests": 25
     },
     {
@@ -4275,6 +4639,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-applet-element",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -4286,6 +4651,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "the-marquee-element-0",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -4297,6 +4663,7 @@
         "level": 3,
         "normativeStatements": 0,
         "original_id": "frames",
+        "propdef": 0,
         "wordCount": 0,
         "tests": 0
     },
@@ -4304,11 +4671,12 @@
         "algorithmicSteps": 8,
         "end_id": "iana",
         "id": "other-elements-attributes-and-apis",
-        "idlComplexity": 207,
+        "idlComplexity": 223,
         "level": 3,
-        "normativeStatements": 131,
+        "normativeStatements": 130,
         "original_id": "other-elements,-attributes-and-apis",
-        "wordCount": 3562,
+        "propdef": 0,
+        "wordCount": 3536,
         "tests": 25
     },
     {
@@ -4317,9 +4685,10 @@
         "id": "iana",
         "idlComplexity": 0,
         "level": 1,
-        "normativeStatements": 5,
+        "normativeStatements": 10,
         "original_id": "iana",
-        "wordCount": 1597,
+        "propdef": 0,
+        "wordCount": 1611,
         "tests": 0
     },
     {
@@ -4328,9 +4697,10 @@
         "id": "text-html",
         "idlComplexity": 0,
         "level": 2,
-        "normativeStatements": 1,
+        "normativeStatements": 3,
         "original_id": "text/html",
-        "wordCount": 562,
+        "propdef": 0,
+        "wordCount": 584,
         "tests": 0
     },
     {
@@ -4341,6 +4711,7 @@
         "level": 2,
         "normativeStatements": 0,
         "original_id": "multipart/x-mixed-replace",
+        "propdef": 0,
         "wordCount": 206,
         "tests": 0
     },
@@ -4352,6 +4723,7 @@
         "level": 2,
         "normativeStatements": 0,
         "original_id": "application/xhtml+xml",
+        "propdef": 0,
         "wordCount": 201,
         "tests": 0
     },
@@ -4363,6 +4735,7 @@
         "level": 2,
         "normativeStatements": 0,
         "original_id": "application/x-www-form-urlencoded",
+        "propdef": 0,
         "wordCount": 207,
         "tests": 0
     },
@@ -4374,6 +4747,7 @@
         "level": 2,
         "normativeStatements": 0,
         "original_id": "text/cache-manifest",
+        "propdef": 0,
         "wordCount": 218,
         "tests": 0
     },
@@ -4385,6 +4759,7 @@
         "level": 2,
         "normativeStatements": 0,
         "original_id": "ping-to",
+        "propdef": 0,
         "wordCount": 42,
         "tests": 0
     },
@@ -4394,9 +4769,10 @@
         "id": "web-scheme-prefix",
         "idlComplexity": 0,
         "level": 2,
-        "normativeStatements": 4,
+        "normativeStatements": 7,
         "original_id": "web+-scheme-prefix",
-        "wordCount": 164,
+        "propdef": 0,
+        "wordCount": 156,
         "tests": 0
     },
     {
@@ -4407,6 +4783,7 @@
         "level": 1,
         "normativeStatements": 0,
         "original_id": "index",
+        "propdef": 0,
         "wordCount": 11,
         "tests": 0
     },
@@ -4418,7 +4795,8 @@
         "level": 1,
         "normativeStatements": 0,
         "original_id": "references",
-        "wordCount": 2272,
+        "propdef": 0,
+        "wordCount": 2263,
         "tests": 0
     },
     {
@@ -4429,7 +4807,8 @@
         "level": 1,
         "normativeStatements": 0,
         "original_id": "acknowledgements",
-        "wordCount": 1523,
+        "propdef": 0,
+        "wordCount": 1480,
         "tests": 0
     }
 ]

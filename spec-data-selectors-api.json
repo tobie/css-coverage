@@ -1,0 +1,167 @@
+[
+    {
+        "algorithmicSteps": 0,
+        "end_id": "security",
+        "id": "conformance",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 5,
+        "original_id": "conformance",
+        "propdef": 0,
+        "wordCount": 207
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "security",
+        "id": "terminology",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 0,
+        "original_id": "terminology",
+        "propdef": 0,
+        "wordCount": 96
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "privacy",
+        "id": "security",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 0,
+        "original_id": "security",
+        "propdef": 0,
+        "wordCount": 71
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "the-apis",
+        "id": "privacy",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 0,
+        "original_id": "privacy",
+        "propdef": 0,
+        "wordCount": 60
+    },
+    {
+        "algorithmicSteps": 9,
+        "end_id": "examples0",
+        "id": "the-apis",
+        "idlComplexity": 12,
+        "level": 1,
+        "normativeStatements": 12,
+        "original_id": "the-apis",
+        "propdef": 0,
+        "wordCount": 620
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "findelements",
+        "id": "interface-definitions",
+        "idlComplexity": 12,
+        "level": 2,
+        "normativeStatements": 0,
+        "original_id": "interface-definitions",
+        "propdef": 0,
+        "wordCount": 4
+    },
+    {
+        "algorithmicSteps": 2,
+        "end_id": "grammar",
+        "id": "findelements",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 8,
+        "original_id": "findelements",
+        "propdef": 0,
+        "wordCount": 222
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "processing-selectors",
+        "id": "grammar",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 1,
+        "original_id": "grammar",
+        "propdef": 0,
+        "wordCount": 65
+    },
+    {
+        "algorithmicSteps": 7,
+        "end_id": "resolving-namespaces",
+        "id": "processing-selectors",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 1,
+        "original_id": "processing-selectors",
+        "propdef": 0,
+        "wordCount": 151
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "examples0",
+        "id": "resolving-namespaces",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 2,
+        "original_id": "resolving-namespaces",
+        "propdef": 0,
+        "wordCount": 80
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "references",
+        "id": "examples0",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 0,
+        "original_id": "examples0",
+        "propdef": 0,
+        "wordCount": 3
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "acknowledgements",
+        "id": "references",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 0,
+        "original_id": "references",
+        "propdef": 0,
+        "wordCount": 132
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "informative-references",
+        "id": "normative-references",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 0,
+        "original_id": "normative-references",
+        "propdef": 0,
+        "wordCount": 72
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "acknowledgements",
+        "id": "informative-references",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 0,
+        "original_id": "informative-references",
+        "propdef": 0,
+        "wordCount": 60
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "",
+        "id": "acknowledgements",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 0,
+        "original_id": "acknowledgements",
+        "propdef": 0,
+        "wordCount": 163
+    }
+]

@@ -24,7 +24,7 @@
       </ul>
       
       <p>
-        <label><input type='checkbox' name='reqs-only' id="reqs-only"> Only show sections with requirements.</label>
+        <label><input type='checkbox' name='reqs-only' id="reqs-only" checked> Only show sections with requirements.</label>
       </p>
     </div>
     <div>
@@ -37,7 +37,9 @@
       <ul>
         <li>Tests per RFC2119: <input type='number' name='rfc2119' size='4' value='4'></li>
         <li>Tests per algorithm step: <input type='number' name='algos' size='4' value='2'></li>
-        <li>Tests per IDL item: <input type='number' name='idl' size='4' value='5'> <small><label><input type='checkbox' name='assume-idl' id="assume-idl" checked> Assume idlharness gives 100% coverage of IDL items.</label></small></li>
+        <li>Tests per IDL SLOC: <input type='number' name='idl' size='4' value='5'> Assume idlharness gives <input type='number' name='assume-idl' id="assume-idl" size='4' value='85'>% coverage of IDL.</li>
+
+        <li>Tests per CSS property definition SLOC: <input type='number' name='propdef' size='4' value='5'></li>
       </ul>
       
       <p>
@@ -63,28 +65,13 @@
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
     <script src='coverage.js'></script>
     <script>
-      cover([
-        {
-          shortName: "css3transforms",
-          title: "CSS Transforms",
-          url: "http://www.w3.org/TR/2012/WD-css3-transforms-20120911/"
-        },
-        {
-          shortName: "css3backgrounds",
-          title: "CSS Backgrounds & Borders",
-          url: "http://www.w3.org/TR/2012/CR-css3-background-20120724/"
-        },
-        {
-          shortName: "html",
-          title: "HTML5",
-          url: "http://www.w3.org/TR/html5/single-page.html"
-        },
-        {
-          shortName: "canvas2d",
-          title: "Canvas 2D",
-          url: "http://www.w3.org/TR/2012/CR-2dcontext-20121217/"
-        }
-      ], $("#output"));
+    $.getJSON("specs.json", function (data) {
+        cover(Object.keys(data).map(function(k) {
+            return data[k];
+        }).filter(function(s) {
+            return s.publisher === "W3C";
+        }), $("#output"));
+    });
     </script>
   </body>
 </html>

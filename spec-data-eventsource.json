@@ -1,0 +1,167 @@
+[
+    {
+        "algorithmicSteps": 0,
+        "end_id": "terminology",
+        "id": "conformance-requirements",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 3,
+        "original_id": "conformance-requirements",
+        "propdef": 0,
+        "wordCount": 363
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "terminology",
+        "id": "dependencies",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 0,
+        "original_id": "dependencies",
+        "propdef": 0,
+        "wordCount": 44
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "the-eventsource-interface",
+        "id": "terminology",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 0,
+        "original_id": "terminology",
+        "propdef": 0,
+        "wordCount": 104
+    },
+    {
+        "algorithmicSteps": 7,
+        "end_id": "processing-model",
+        "id": "the-eventsource-interface",
+        "idlComplexity": 18,
+        "level": 1,
+        "normativeStatements": 11,
+        "original_id": "the-eventsource-interface",
+        "propdef": 0,
+        "wordCount": 469
+    },
+    {
+        "algorithmicSteps": 10,
+        "end_id": "parsing-an-event-stream",
+        "id": "processing-model",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 18,
+        "original_id": "processing-model",
+        "propdef": 0,
+        "wordCount": 827
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "event-stream-interpretation",
+        "id": "parsing-an-event-stream",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 3,
+        "original_id": "parsing-an-event-stream",
+        "propdef": 0,
+        "wordCount": 267
+    },
+    {
+        "algorithmicSteps": 7,
+        "end_id": "notes",
+        "id": "event-stream-interpretation",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 12,
+        "original_id": "event-stream-interpretation",
+        "propdef": 0,
+        "wordCount": 722
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "eventsource-push",
+        "id": "notes",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 1,
+        "original_id": "notes",
+        "propdef": 0,
+        "wordCount": 238
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "garbage-collection",
+        "id": "eventsource-push",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 0,
+        "original_id": "eventsource-push",
+        "propdef": 0,
+        "wordCount": 123
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "iana-considerations",
+        "id": "garbage-collection",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 6,
+        "original_id": "garbage-collection",
+        "propdef": 0,
+        "wordCount": 211
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "references",
+        "id": "iana-considerations",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 2,
+        "original_id": "iana-considerations",
+        "propdef": 0,
+        "wordCount": 355
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "last-event-id",
+        "id": "text-event-stream",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 2,
+        "original_id": "text-event-stream",
+        "propdef": 0,
+        "wordCount": 311
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "references",
+        "id": "last-event-id",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 0,
+        "original_id": "last-event-id",
+        "propdef": 0,
+        "wordCount": 42
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "acknowledgements",
+        "id": "references",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 0,
+        "original_id": "references",
+        "propdef": 0,
+        "wordCount": 97
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "",
+        "id": "acknowledgements",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 0,
+        "original_id": "acknowledgements",
+        "propdef": 0,
+        "wordCount": 14
+    }
+]

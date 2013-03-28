@@ -1,0 +1,112 @@
+[
+    {
+        "algorithmicSteps": 0,
+        "end_id": "terminology",
+        "id": "conformance",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 3,
+        "original_id": "conformance",
+        "propdef": 0,
+        "wordCount": 71
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "interface-progressevent",
+        "id": "terminology",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 0,
+        "original_id": "terminology",
+        "propdef": 0,
+        "wordCount": 15
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "references",
+        "id": "interface-progressevent",
+        "idlComplexity": 11,
+        "level": 1,
+        "normativeStatements": 4,
+        "original_id": "interface-progressevent",
+        "propdef": 0,
+        "wordCount": 227
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "firing-events-using-the-progressevent-interface-for-other-contexts",
+        "id": "firing-events-using-the-progressevent-interface-for-http",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 0,
+        "original_id": "firing-events-using-the-progressevent-interface-for-http",
+        "propdef": 0,
+        "wordCount": 77
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "security-considerations",
+        "id": "firing-events-using-the-progressevent-interface-for-other-contexts",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 0,
+        "original_id": "firing-events-using-the-progressevent-interface-for-other-contexts",
+        "propdef": 0,
+        "wordCount": 51
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "references",
+        "id": "security-considerations",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 0,
+        "original_id": "security-considerations",
+        "propdef": 0,
+        "wordCount": 40
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "acknowledgments",
+        "id": "references",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 0,
+        "original_id": "references",
+        "propdef": 0,
+        "wordCount": 72
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "informative-references",
+        "id": "normative-references",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 0,
+        "original_id": "normative-references",
+        "propdef": 0,
+        "wordCount": 48
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "acknowledgments",
+        "id": "informative-references",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 0,
+        "original_id": "informative-references",
+        "propdef": 0,
+        "wordCount": 24
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "",
+        "id": "acknowledgments",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 0,
+        "original_id": "acknowledgments",
+        "propdef": 0,
+        "wordCount": 137
+    }
+]

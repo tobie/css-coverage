@@ -1,0 +1,123 @@
+[
+    {
+        "algorithmicSteps": 0,
+        "end_id": "declaration",
+        "id": "conformance",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 0,
+        "original_id": "conformance",
+        "propdef": 0,
+        "wordCount": 283
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "declaration",
+        "id": "terminology",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 0,
+        "original_id": "terminology",
+        "propdef": 0,
+        "wordCount": 72
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "css-qnames",
+        "id": "declaration",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 5,
+        "original_id": "declaration",
+        "propdef": 0,
+        "wordCount": 458
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "scope",
+        "id": "syntax",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 3,
+        "original_id": "syntax",
+        "propdef": 0,
+        "wordCount": 152
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "prefixes",
+        "id": "scope",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 0,
+        "original_id": "scope",
+        "propdef": 0,
+        "wordCount": 44
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "css-qnames",
+        "id": "prefixes",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 2,
+        "original_id": "prefixes",
+        "propdef": 0,
+        "wordCount": 157
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "acknowledgments",
+        "id": "css-qnames",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 2,
+        "original_id": "css-qnames",
+        "propdef": 0,
+        "wordCount": 255
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "references",
+        "id": "acknowledgments",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 0,
+        "original_id": "acknowledgments",
+        "propdef": 0,
+        "wordCount": 93
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "",
+        "id": "references",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 0,
+        "original_id": "references",
+        "propdef": 0,
+        "wordCount": 87
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "informative-references",
+        "id": "normative-references",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 0,
+        "original_id": "normative-references",
+        "propdef": 0,
+        "wordCount": 65
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "",
+        "id": "informative-references",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 0,
+        "original_id": "informative-references",
+        "propdef": 0,
+        "wordCount": 22
+    }
+]

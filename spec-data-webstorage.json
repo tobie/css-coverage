@@ -1,0 +1,233 @@
+[
+    {
+        "algorithmicSteps": 0,
+        "end_id": "terminology",
+        "id": "conformance-requirements",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 3,
+        "original_id": "conformance-requirements",
+        "propdef": 0,
+        "wordCount": 346
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "terminology",
+        "id": "dependencies",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 0,
+        "original_id": "dependencies",
+        "propdef": 0,
+        "wordCount": 36
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "storage",
+        "id": "terminology",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 0,
+        "original_id": "terminology",
+        "propdef": 0,
+        "wordCount": 123
+    },
+    {
+        "algorithmicSteps": 4,
+        "end_id": "disk-space",
+        "id": "storage",
+        "idlComplexity": 30,
+        "level": 1,
+        "normativeStatements": 51,
+        "original_id": "storage",
+        "propdef": 0,
+        "wordCount": 1754
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "the-sessionstorage-attribute",
+        "id": "the-storage-interface",
+        "idlComplexity": 8,
+        "level": 2,
+        "normativeStatements": 18,
+        "original_id": "the-storage-interface",
+        "propdef": 0,
+        "wordCount": 445
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "the-localstorage-attribute",
+        "id": "the-sessionstorage-attribute",
+        "idlComplexity": 5,
+        "level": 2,
+        "normativeStatements": 11,
+        "original_id": "the-sessionstorage-attribute",
+        "propdef": 0,
+        "wordCount": 464
+    },
+    {
+        "algorithmicSteps": 4,
+        "end_id": "the-storage-event",
+        "id": "the-localstorage-attribute",
+        "idlComplexity": 5,
+        "level": 2,
+        "normativeStatements": 8,
+        "original_id": "the-localstorage-attribute",
+        "propdef": 0,
+        "wordCount": 383
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "the-storage-event",
+        "id": "security-localstorage",
+        "idlComplexity": 0,
+        "level": 3,
+        "normativeStatements": 1,
+        "original_id": "security-localStorage",
+        "propdef": 0,
+        "wordCount": 52
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "threads",
+        "id": "the-storage-event",
+        "idlComplexity": 15,
+        "level": 2,
+        "normativeStatements": 14,
+        "original_id": "the-storage-event",
+        "propdef": 0,
+        "wordCount": 394
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "threads",
+        "id": "event-definition",
+        "idlComplexity": 15,
+        "level": 3,
+        "normativeStatements": 10,
+        "original_id": "event-definition",
+        "propdef": 0,
+        "wordCount": 161
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "disk-space",
+        "id": "threads",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 0,
+        "original_id": "threads",
+        "propdef": 0,
+        "wordCount": 70
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "privacy",
+        "id": "disk-space",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 3,
+        "original_id": "disk-space",
+        "propdef": 0,
+        "wordCount": 115
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "security-storage",
+        "id": "privacy",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 3,
+        "original_id": "privacy",
+        "propdef": 0,
+        "wordCount": 696
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "sensitivity-of-data",
+        "id": "user-tracking",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 1,
+        "original_id": "user-tracking",
+        "propdef": 0,
+        "wordCount": 646
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "security-storage",
+        "id": "sensitivity-of-data",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 2,
+        "original_id": "sensitivity-of-data",
+        "propdef": 0,
+        "wordCount": 50
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "references",
+        "id": "security-storage",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 0,
+        "original_id": "security-storage",
+        "propdef": 0,
+        "wordCount": 297
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "cross-directory-attacks",
+        "id": "dns-spoofing-attacks",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 0,
+        "original_id": "dns-spoofing-attacks",
+        "propdef": 0,
+        "wordCount": 74
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "implementation-risks",
+        "id": "cross-directory-attacks",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 0,
+        "original_id": "cross-directory-attacks",
+        "propdef": 0,
+        "wordCount": 58
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "references",
+        "id": "implementation-risks",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 0,
+        "original_id": "implementation-risks",
+        "propdef": 0,
+        "wordCount": 166
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "acknowledgements",
+        "id": "references",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 0,
+        "original_id": "references",
+        "propdef": 0,
+        "wordCount": 51
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "",
+        "id": "acknowledgements",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 0,
+        "original_id": "acknowledgements",
+        "propdef": 0,
+        "wordCount": 13
+    }
+]

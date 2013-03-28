@@ -1,0 +1,178 @@
+[
+    {
+        "algorithmicSteps": 0,
+        "end_id": "security",
+        "id": "conformance",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 3,
+        "original_id": "conformance",
+        "propdef": 0,
+        "wordCount": 225
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "api_description",
+        "id": "security",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 16,
+        "original_id": "security",
+        "propdef": 0,
+        "wordCount": 562
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "privacy_for_recipients",
+        "id": "privacy-for-uas",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 5,
+        "original_id": "privacy_for_uas",
+        "propdef": 0,
+        "wordCount": 154
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "implementation_considerations",
+        "id": "privacy-for-recipients",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 9,
+        "original_id": "privacy_for_recipients",
+        "propdef": 0,
+        "wordCount": 183
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "api_description",
+        "id": "implementation-considerations",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 0,
+        "original_id": "implementation_considerations",
+        "propdef": 0,
+        "wordCount": 148
+    },
+    {
+        "algorithmicSteps": 24,
+        "end_id": "usecases",
+        "id": "api-description",
+        "idlComplexity": 49,
+        "level": 1,
+        "normativeStatements": 43,
+        "original_id": "api_description",
+        "propdef": 0,
+        "wordCount": 2419
+    },
+    {
+        "algorithmicSteps": 24,
+        "end_id": "position_options_interface",
+        "id": "geolocation-interface",
+        "idlComplexity": 21,
+        "level": 2,
+        "normativeStatements": 25,
+        "original_id": "geolocation_interface",
+        "propdef": 0,
+        "wordCount": 1325
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "position_interface",
+        "id": "position-options-interface",
+        "idlComplexity": 6,
+        "level": 2,
+        "normativeStatements": 5,
+        "original_id": "position_options_interface",
+        "propdef": 0,
+        "wordCount": 581
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "coordinates_interface",
+        "id": "position-interface",
+        "idlComplexity": 5,
+        "level": 2,
+        "normativeStatements": 0,
+        "original_id": "position_interface",
+        "propdef": 0,
+        "wordCount": 98
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "position_error_interface",
+        "id": "coordinates-interface",
+        "idlComplexity": 10,
+        "level": 2,
+        "normativeStatements": 10,
+        "original_id": "coordinates_interface",
+        "propdef": 0,
+        "wordCount": 281
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "usecases",
+        "id": "position-error-interface",
+        "idlComplexity": 8,
+        "level": 2,
+        "normativeStatements": 3,
+        "original_id": "position_error_interface",
+        "propdef": 0,
+        "wordCount": 135
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "acknowledgments",
+        "id": "usecases",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 8,
+        "original_id": "usecases",
+        "propdef": 0,
+        "wordCount": 727
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "requirements_section",
+        "id": "usecases-section",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 0,
+        "original_id": "usecases_section",
+        "propdef": 0,
+        "wordCount": 579
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "acknowledgments",
+        "id": "requirements-section",
+        "idlComplexity": 0,
+        "level": 2,
+        "normativeStatements": 8,
+        "original_id": "requirements_section",
+        "propdef": 0,
+        "wordCount": 145
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "references",
+        "id": "acknowledgments",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 0,
+        "original_id": "acknowledgments",
+        "propdef": 0,
+        "wordCount": 63
+    },
+    {
+        "algorithmicSteps": 0,
+        "end_id": "",
+        "id": "references",
+        "idlComplexity": 0,
+        "level": 1,
+        "normativeStatements": 0,
+        "original_id": "references",
+        "propdef": 0,
+        "wordCount": 181
+    }
+]
